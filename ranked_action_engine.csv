@@ -1,0 +1,601 @@
+rank,page_id,content_type,predicted_status,confidence,recommended_action,reason_codes,recent_avg_clicks,recent_avg_position,momentum_clicks_4v8,days_since_update
+1,page_0572,blog,declining,0.5897907239858187,Refresh / rewrite,click momentum -20% vs prior 4wk; avg position slipped 2.2 spots; not updated in 1023d,2.0,36.4125,-0.2,1023
+2,page_0531,product,declining,0.5684124014376473,Refresh / rewrite,click momentum -25% vs prior 4wk; avg position slipped 2.3 spots; not updated in 819d,2.25,27.9,-0.25,819
+3,page_0394,guide,declining,0.5591419295159735,Refresh / rewrite,click momentum -25% vs prior 4wk; not updated in 645d; high week-to-week volatility,122.75,20.935,-0.2549317147192716,645
+4,page_0208,blog,declining,0.5481005298689339,Refresh / rewrite,click momentum -24% vs prior 4wk; avg position slipped 2.2 spots; not updated in 975d,4.0,23.540000000000003,-0.23809523809523808,975
+5,page_0532,blog,declining,0.5290314953542852,Refresh / rewrite,click momentum -17% vs prior 4wk; CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 1062d,6.0,21.98,-0.1724137931034483,1062
+6,page_0113,guide,declining,0.5243170788726903,Refresh / rewrite,click momentum -26% vs prior 4wk; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 613d,9.75,15.797500000000001,-0.2641509433962264,613
+7,page_0257,blog,declining,0.521348314134324,Refresh / rewrite,CTR beats position-expected by 0.4pp; not updated in 879d,3.0,23.8875,0.0,879
+8,page_0426,guide,declining,0.5052162106664482,Refresh / rewrite,click momentum -28% vs prior 4wk; avg position slipped 1.9 spots; not updated in 655d,4.5,19.875,-0.28,655
+9,page_0197,guide,declining,0.5020029933425133,Refresh / rewrite,click momentum -17% vs prior 4wk; not updated in 1034d,44.0,23.654999999999998,-0.17370892018779344,1034
+10,page_0054,landing,declining,0.49932582840269113,Refresh / rewrite,click momentum -27% vs prior 4wk; not updated in 607d,22.75,30.727500000000003,-0.2661290322580645,607
+11,page_0284,guide,declining,0.49145253119363624,Refresh / rewrite,click momentum -19% vs prior 4wk; CTR beats position-expected by 0.7pp; not updated in 1015d,21.5,12.1,-0.18867924528301888,1015
+12,page_0168,blog,declining,0.48988754583685956,Refresh / rewrite,click momentum -24% vs prior 4wk; not updated in 611d; high week-to-week volatility,7.25,17.86,-0.23684210526315788,611
+13,page_0574,blog,declining,0.48362803206415883,Refresh / rewrite,click momentum -25% vs prior 4wk; not updated in 762d; high week-to-week volatility,0.75,26.1925,-0.25,762
+14,page_0560,guide,declining,0.4783791894539626,Refresh / rewrite,click momentum -15% vs prior 4wk; not updated in 694d; high week-to-week volatility,2.75,26.872500000000002,-0.15384615384615385,694
+15,page_0432,guide,declining,0.478163493922237,Refresh / rewrite,click momentum -18% vs prior 4wk; not updated in 858d,11.5,12.3825,-0.17857142857142858,858
+16,page_0232,guide,declining,0.47800330279182,Refresh / rewrite,CTR beats position-expected by 0.8pp; not updated in 604d,4.5,14.67,0.0,604
+17,page_0552,blog,declining,0.4725483380724317,Refresh / rewrite,click momentum -15% vs prior 4wk; CTR trails position-expected by 0.5pp — metadata review candidate,100.25,14.6275,-0.1522198731501057,343
+18,page_0540,blog,declining,0.4712989691704127,Refresh / rewrite,click momentum -20% vs prior 4wk; CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 811d,9.75,10.520000000000001,-0.20408163265306123,811
+19,page_0480,blog,declining,0.4691394656569833,Refresh / rewrite,click momentum -16% vs prior 4wk; avg position slipped 1.6 spots; not updated in 623d,33.75,19.375,-0.16149068322981366,623
+20,page_0158,landing,declining,0.4671263254126387,Refresh / rewrite,click momentum -19% vs prior 4wk; not updated in 785d,15.75,19.105,-0.19230769230769232,785
+21,page_0374,blog,declining,0.4666451898439172,Refresh / rewrite,click momentum -20% vs prior 4wk; not updated in 768d; high week-to-week volatility,1.0,24.765,-0.2,768
+22,page_0391,guide,declining,0.4656486804287019,Refresh / rewrite,click momentum -23% vs prior 4wk; CTR beats position-expected by 0.5pp; not updated in 992d,29.0,8.965,-0.22666666666666666,992
+23,page_0246,blog,declining,0.4654364644057248,Refresh / rewrite,click momentum -21% vs prior 4wk; not updated in 603d; high week-to-week volatility,9.25,13.2875,-0.2127659574468085,603
+24,page_0375,blog,declining,0.46456779173366053,Refresh / rewrite,click momentum -18% vs prior 4wk; avg position slipped 1.9 spots; not updated in 759d,33.25,11.552499999999998,-0.17901234567901234,759
+25,page_0339,guide,declining,0.46445074802029357,Refresh / rewrite,click momentum -15% vs prior 4wk; not updated in 1060d; high week-to-week volatility,2.75,31.127499999999998,-0.15384615384615385,1060
+26,page_0462,guide,declining,0.4594108050822919,Refresh / rewrite,click momentum -20% vs prior 4wk; avg position slipped 3.2 spots; CTR trails position-expected by 0.5pp — metadata review candidate,49.25,9.015,-0.19591836734693877,630
+27,page_0039,guide,declining,0.45893701853401875,Refresh / rewrite,click momentum -24% vs prior 4wk; avg position slipped 1.8 spots; CTR trails position-expected by 0.5pp — metadata review candidate,17.5,17.737499999999997,-0.2391304347826087,637
+28,page_0263,blog,declining,0.4577316538810862,Refresh / rewrite,click momentum -19% vs prior 4wk; CTR beats position-expected by 0.5pp; not updated in 696d,42.0,13.86,-0.18840579710144928,696
+29,page_0440,product,declining,0.45505819908699574,Refresh / rewrite,click momentum -15% vs prior 4wk; CTR trails position-expected by 0.3pp — metadata review candidate; not updated in 806d,2.75,26.5,-0.15384615384615385,806
+30,page_0035,guide,declining,0.4511741928059557,Refresh / rewrite,click momentum -20% vs prior 4wk; not updated in 604d,6.0,18.38,-0.2,604
+31,page_0539,guide,declining,0.45016909532228666,Refresh / rewrite,click momentum -43% vs prior 4wk; CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 1065d,1.0,22.042500000000004,-0.42857142857142855,1065
+32,page_0331,guide,declining,0.45014711294206206,Refresh / rewrite,click momentum -22% vs prior 4wk; not updated in 948d; high week-to-week volatility,24.5,22.6375,-0.2222222222222222,948
+33,page_0244,blog,declining,0.4489535267109513,Refresh / rewrite,click momentum -19% vs prior 4wk,20.5,3.2725,-0.18811881188118812,343
+34,page_0402,product,declining,0.4437009713355483,Refresh / rewrite,click momentum -17% vs prior 4wk; CTR beats position-expected by 0.4pp; not updated in 621d,4.75,12.879999999999999,-0.17391304347826086,621
+35,page_0381,blog,declining,0.4426742698946736,Refresh / rewrite,click momentum -20% vs prior 4wk; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 585d,1.0,24.65,-0.2,585
+36,page_0192,blog,declining,0.4397129053662525,Refresh / rewrite,click momentum -30% vs prior 4wk; avg position slipped 2.5 spots; not updated in 779d,12.25,12.89,-0.3,779
+37,page_0134,product,declining,0.4362237779683803,Refresh / rewrite,click momentum -23% vs prior 4wk; not updated in 1078d; high week-to-week volatility,6.75,17.9675,-0.22857142857142856,1078
+38,page_0297,blog,declining,0.4352380201362974,Refresh / rewrite,click momentum -17% vs prior 4wk; not updated in 826d,23.5,17.7025,-0.168141592920354,826
+39,page_0324,product,declining,0.42789018124861694,Refresh / rewrite,click momentum -20% vs prior 4wk; not updated in 976d,3.0,28.119999999999997,-0.2,976
+40,page_0373,guide,declining,0.4277301787997507,Refresh / rewrite,click momentum -16% vs prior 4wk; CTR beats position-expected by 1.2pp; not updated in 660d,69.0,1.9249999999999998,-0.16109422492401215,660
+41,page_0042,guide,declining,0.42612990908920784,Refresh / rewrite,click momentum -16% vs prior 4wk; CTR trails position-expected by 1.5pp — metadata review candidate; not updated in 624d,13.25,6.925,-0.15873015873015872,624
+42,page_0006,product,declining,0.42314086544926993,Refresh / rewrite,click momentum -25% vs prior 4wk; not updated in 887d,69.25,18.63,-0.24728260869565216,887
+43,page_0345,guide,declining,0.4230423738882436,Refresh / rewrite,click momentum -18% vs prior 4wk; CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 861d,32.0,14.545000000000002,-0.18471337579617833,861
+44,page_0195,blog,declining,0.4218972150907214,Refresh / rewrite,click momentum -22% vs prior 4wk; CTR trails position-expected by 0.9pp — metadata review candidate; not updated in 860d,76.75,13.0275,-0.22278481012658227,860
+45,page_0452,landing,declining,0.41973278839851486,Refresh / rewrite,click momentum -17% vs prior 4wk; not updated in 1071d,16.25,5.285,-0.16666666666666666,1071
+46,page_0475,guide,declining,0.4185119824174535,Refresh / rewrite,click momentum -43% vs prior 4wk; avg position slipped 2.8 spots; CTR trails position-expected by 0.3pp — metadata review candidate,1.0,29.737500000000004,-0.42857142857142855,754
+47,page_0073,guide,declining,0.4168092727581131,Refresh / rewrite,click momentum -25% vs prior 4wk; not updated in 735d; high week-to-week volatility,1.5,24.022499999999997,-0.25,735
+48,page_0198,product,declining,0.4157587816050968,Refresh / rewrite,click momentum -18% vs prior 4wk; CTR trails position-expected by 0.9pp — metadata review candidate; high week-to-week volatility,56.25,4.194999999999999,-0.18478260869565216,343
+49,page_0031,product,declining,0.414506918196026,Refresh / rewrite,click momentum -15% vs prior 4wk; not updated in 793d,11.25,25.729999999999997,-0.1509433962264151,793
+50,page_0055,guide,declining,0.41344600559191985,Refresh / rewrite,click momentum -21% vs prior 4wk; not updated in 883d,15.0,18.2525,-0.21052631578947367,883
+51,page_0281,product,declining,0.41197574765472,Refresh / rewrite,click momentum -17% vs prior 4wk; CTR trails position-expected by 0.8pp — metadata review candidate; high week-to-week volatility,30.5,3.1174999999999997,-0.17006802721088435,343
+52,page_0161,blog,declining,0.407984206917776,Refresh / rewrite,click momentum -39% vs prior 4wk; avg position slipped 2.0 spots; not updated in 853d,112.5,4.3225,-0.3869209809264305,853
+53,page_0179,product,declining,0.40786571915075276,Refresh / rewrite,click momentum -16% vs prior 4wk; not updated in 708d,9.25,19.92,-0.1590909090909091,708
+54,page_0276,blog,declining,0.40589378225457207,Refresh / rewrite,click momentum -17% vs prior 4wk; not updated in 893d,2.5,12.97,-0.16666666666666666,893
+55,page_0166,product,declining,0.3997010418841508,Refresh / rewrite,click momentum -26% vs prior 4wk; avg position slipped 2.0 spots; not updated in 1064d,18.0,18.9175,-0.25773195876288657,1064
+56,page_0056,product,declining,0.38952608916396925,Refresh / rewrite,click momentum -25% vs prior 4wk; not updated in 714d; high week-to-week volatility,1.5,17.445,-0.25,714
+57,page_0335,blog,declining,0.38880140746337594,Refresh / rewrite,click momentum -20% vs prior 4wk; not updated in 714d,72.75,16.9475,-0.19613259668508287,714
+58,page_0565,product,declining,0.37680568012316396,Refresh / rewrite,CTR beats position-expected by 0.9pp; not updated in 920d; high week-to-week volatility,2.5,13.6275,0.0,920
+59,page_0190,guide,declining,0.37546624782470733,Refresh / rewrite,CTR beats position-expected by 0.4pp; not updated in 1005d,2.75,20.2775,-0.08333333333333333,1005
+60,page_0077,product,declining,0.3724800573028181,Refresh / rewrite,click momentum -15% vs prior 4wk; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 938d,44.5,11.66,-0.1523809523809524,938
+61,page_0049,blog,declining,0.3675484914096737,Refresh / rewrite,click momentum -19% vs prior 4wk; CTR trails position-expected by 2.9pp — metadata review candidate; not updated in 1078d,68.75,1.395,-0.19117647058823528,1078
+62,page_0508,product,declining,0.34983408865325955,Refresh / rewrite,click momentum -19% vs prior 4wk; CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 1065d,3.25,8.8025,-0.1875,1065
+63,page_0398,blog,declining,0.33987734916647966,Refresh / rewrite,click momentum -23% vs prior 4wk; CTR beats position-expected by 1.1pp; not updated in 914d,5.75,4.282500000000001,-0.23333333333333334,914
+64,page_0041,blog,declining,0.3392897847411863,Refresh / rewrite,CTR beats position-expected by 1.4pp; not updated in 857d,55.25,6.03,-0.09053497942386832,857
+65,page_0065,product,declining,0.3359449680953642,Refresh / rewrite,not updated in 884d; high week-to-week volatility,2.25,13.6825,0.0,884
+66,page_0003,guide,recovering,0.547833038109648,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 981d,7.25,17.3625,-0.14705882352941177,981
+67,page_0450,blog,recovering,0.5396755002682411,Protect & monitor — reinforce what's working,not updated in 613d,7.5,15.475,-0.09090909090909091,613
+68,page_0078,blog,recovering,0.5297728336250801,Protect & monitor — reinforce what's working,not updated in 1007d,8.5,19.71,-0.05555555555555555,1007
+69,page_0004,blog,recovering,0.5263206555724129,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 845d; high week-to-week volatility,7.25,16.2575,-0.14705882352941177,845
+70,page_0259,blog,recovering,0.5104706293797949,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 771d,21.5,19.665,-0.033707865168539325,771
+71,page_0212,blog,recovering,0.5014834857273593,Protect & monitor — reinforce what's working,within normal range on tracked signals,28.25,14.25,-0.03418803418803419,343
+72,page_0474,guide,recovering,0.4969991399709893,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 831d,8.0,14.3,-0.13513513513513514,831
+73,page_0382,product,recovering,0.48670546408281123,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 605d,9.25,13.129999999999999,-0.0975609756097561,605
+74,page_0199,guide,recovering,0.4809435623473129,Protect & monitor — reinforce what's working,not updated in 635d,4.25,20.842499999999998,-0.10526315789473684,635
+75,page_0441,guide,recovering,0.4708517810668299,Protect & monitor — reinforce what's working,not updated in 970d,21.0,20.3625,0.012048192771084338,970
+76,page_0479,guide,recovering,0.4707250765478358,Protect & monitor — reinforce what's working,not updated in 710d,15.75,18.932499999999997,-0.08695652173913043,710
+77,page_0010,blog,recovering,0.46905846898688447,Protect & monitor — reinforce what's working,not updated in 755d,9.25,19.2575,0.0,755
+78,page_0135,blog,recovering,0.46763876690030304,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 657d,23.0,14.8825,-0.010752688172043012,657
+79,page_0072,blog,recovering,0.45966163488976297,Protect & monitor — reinforce what's working,within normal range on tracked signals,7.0,18.2975,-0.0967741935483871,343
+80,page_0524,guide,recovering,0.45614571364831175,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 849d,27.0,13.147499999999999,-0.136,849
+81,page_0399,guide,recovering,0.4544546586003935,Protect & monitor — reinforce what's working,not updated in 1033d,9.5,18.13,-0.07317073170731707,1033
+82,page_0338,guide,recovering,0.4496484759104509,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.8pp — metadata review candidate; not updated in 788d,5.25,14.925,-0.045454545454545456,788
+83,page_0133,blog,recovering,0.4480582720425072,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 1019d; high week-to-week volatility,12.25,19.63,-0.02,1019
+84,page_0379,guide,recovering,0.44750894740318325,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 785d,4.25,20.705,-0.05555555555555555,785
+85,page_0125,guide,recovering,0.44544599012305225,Protect & monitor — reinforce what's working,not updated in 878d,5.75,17.127499999999998,-0.08,878
+86,page_0172,blog,recovering,0.44508170201025793,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 636d,7.25,18.450000000000003,-0.06451612903225806,636
+87,page_0268,blog,recovering,0.4318990601771388,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.8pp — metadata review candidate,18.5,5.069999999999999,-0.02631578947368421,343
+88,page_0124,blog,recovering,0.41938858750829777,Protect & monitor — reinforce what's working,not updated in 771d,8.25,10.934999999999999,-0.10810810810810811,771
+89,page_0079,guide,recovering,0.4157525491221388,Protect & monitor — reinforce what's working,not updated in 949d,17.5,19.8875,-0.09090909090909091,949
+90,page_0086,blog,recovering,0.41488972069279434,Protect & monitor — reinforce what's working,CTR beats position-expected by 0.4pp; not updated in 690d,15.75,17.88,-0.14864864864864866,690
+91,page_0045,blog,recovering,0.41157937965860014,Protect & monitor — reinforce what's working,CTR beats position-expected by 1.0pp; not updated in 995d,20.75,9.469999999999999,-0.06741573033707865,995
+92,page_0464,blog,recovering,0.41006591131020276,Protect & monitor — reinforce what's working,CTR beats position-expected by 0.5pp; not updated in 1000d,54.5,10.1225,-0.0954356846473029,1000
+93,page_0060,blog,recovering,0.4063973609943226,Protect & monitor — reinforce what's working,not updated in 778d,3.0,18.78,0.0,778
+94,page_0061,blog,recovering,0.40250876794477075,Protect & monitor — reinforce what's working,not updated in 929d,15.0,21.06,-0.13043478260869565,929
+95,page_0123,blog,recovering,0.4012630947892259,Protect & monitor — reinforce what's working,not updated in 639d,1.75,17.4425,-0.125,639
+96,page_0384,landing,recovering,0.3976962726141546,Protect & monitor — reinforce what's working,not updated in 740d; high week-to-week volatility,3.25,19.645,-0.13333333333333333,740
+97,page_0502,product,recovering,0.39478930379708,Protect & monitor — reinforce what's working,not updated in 757d; high week-to-week volatility,2.5,25.9925,0.0,757
+98,page_0044,landing,recovering,0.38855330305702884,Protect & monitor — reinforce what's working,not updated in 989d,10.5,15.8675,-0.08695652173913043,989
+99,page_0162,landing,recovering,0.38845016637249774,Protect & monitor — reinforce what's working,not updated in 796d,6.75,16.2725,0.0,796
+100,page_0227,guide,recovering,0.37627290579563394,Protect & monitor — reinforce what's working,CTR trails position-expected by 1.8pp — metadata review candidate; not updated in 938d; high week-to-week volatility,182.5,4.13,-0.04450261780104712,938
+101,page_0070,blog,recovering,0.37126598390879956,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.5pp — metadata review candidate,59.0,4.16,-0.09578544061302682,343
+102,page_0165,guide,recovering,0.36300541960694754,Protect & monitor — reinforce what's working,"CTR beats position-expected by 2.2pp; was declining, now turning up",136.5,3.64,0.04597701149425287,343
+103,page_0317,product,recovering,0.3607791229101498,Protect & monitor — reinforce what's working,not updated in 892d,8.0,14.59,0.0,892
+104,page_0201,product,recovering,0.35219579098378434,Protect & monitor — reinforce what's working,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 823d,18.5,13.612499999999999,-0.08641975308641975,823
+105,page_0182,blog,recovering,0.35013082688334013,Protect & monitor — reinforce what's working,not updated in 691d,4.75,11.637500000000001,-0.09523809523809523,691
+106,page_0173,blog,recovering,0.3479587273949698,Protect & monitor — reinforce what's working,CTR trails position-expected by 1.1pp — metadata review candidate; not updated in 662d; high week-to-week volatility,1.0,12.4675,0.0,662
+107,page_0200,product,growing,0.5694765356304677,Expand — add internal links / related content,not updated in 1010d,22.0,21.720000000000002,0.1282051282051282,1010
+108,page_0494,blog,growing,0.5463076236419253,Expand — add internal links / related content,click momentum +23% vs prior 4wk; not updated in 626d; high week-to-week volatility,28.25,19.715,0.22826086956521738,626
+109,page_0082,guide,growing,0.5288445781408805,Expand — add internal links / related content,click momentum +32% vs prior 4wk; high week-to-week volatility,20.75,7.5775,0.31746031746031744,343
+110,page_0239,guide,growing,0.525721101146038,Expand — add internal links / related content,click momentum +18% vs prior 4wk; avg position improved 2.2 spots; CTR trails position-expected by 0.4pp — metadata review candidate,31.5,13.585,0.17757009345794392,742
+111,page_0211,guide,growing,0.5198955975133979,Expand — add internal links / related content,click momentum +23% vs prior 4wk; avg position improved 3.5 spots; not updated in 707d,20.0,13.912500000000001,0.23076923076923078,707
+112,page_0520,landing,growing,0.5080975186261325,Expand — add internal links / related content,not updated in 889d,25.5,14.420000000000002,0.07368421052631578,889
+113,page_0561,landing,growing,0.5048449514477653,Expand — add internal links / related content,avg position improved 1.6 spots; CTR trails position-expected by 0.5pp — metadata review candidate,34.25,11.062500000000002,0.12295081967213115,343
+114,page_0517,guide,growing,0.5006330552861996,Expand — add internal links / related content,CTR beats position-expected by 0.4pp; not updated in 764d,12.25,11.3325,0.13953488372093023,764
+115,page_0570,guide,growing,0.49943625884435966,Expand — add internal links / related content,click momentum +17% vs prior 4wk; CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 753d,50.75,12.495000000000001,0.16666666666666666,753
+116,page_0371,product,growing,0.4976214849106646,Expand — add internal links / related content,click momentum +19% vs prior 4wk; avg position improved 1.6 spots; not updated in 894d,6.25,12.28,0.19047619047619047,894
+117,page_0143,product,growing,0.49476333430278996,Expand — add internal links / related content,click momentum +22% vs prior 4wk; CTR trails position-expected by 0.8pp — metadata review candidate; high week-to-week volatility,15.25,11.254999999999999,0.22,343
+118,page_0348,blog,growing,0.4945457275915367,Expand — add internal links / related content,not updated in 623d,27.25,19.872500000000002,0.09,623
+119,page_0260,product,growing,0.4887369257454013,Expand — add internal links / related content,click momentum +38% vs prior 4wk; avg position improved 1.5 spots; CTR trails position-expected by 1.4pp — metadata review candidate,10.0,3.8325,0.3793103448275862,343
+120,page_0448,blog,growing,0.4863193649829077,Expand — add internal links / related content,avg position improved 1.7 spots; CTR beats position-expected by 0.4pp; not updated in 744d,23.75,13.8075,0.13095238095238096,744
+121,page_0499,blog,growing,0.4843939922662317,Expand — add internal links / related content,not updated in 971d,45.25,12.01,0.10365853658536585,971
+122,page_0562,blog,growing,0.4831139032392079,Expand — add internal links / related content,CTR beats position-expected by 1.1pp; not updated in 964d; high week-to-week volatility,31.75,8.45,0.13392857142857142,964
+123,page_0176,landing,growing,0.4792982930058019,Expand — add internal links / related content,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 1031d,30.0,8.817499999999999,0.12149532710280374,1031
+124,page_0487,product,growing,0.4787140222732988,Expand — add internal links / related content,not updated in 651d,18.25,20.96,0.10606060606060606,651
+125,page_0090,guide,growing,0.47853158144779795,Expand — add internal links / related content,not updated in 638d; high week-to-week volatility,38.5,17.4325,0.03355704697986577,638
+126,page_0028,blog,growing,0.47487888746026957,Expand — add internal links / related content,click momentum +32% vs prior 4wk; avg position improved 1.9 spots; CTR trails position-expected by 0.3pp — metadata review candidate,33.25,19.9775,0.31683168316831684,343
+127,page_0346,guide,growing,0.4710601075084112,Expand — add internal links / related content,click momentum +21% vs prior 4wk; CTR beats position-expected by 0.4pp; not updated in 918d,58.25,6.8825,0.21354166666666666,918
+128,page_0030,guide,growing,0.46915207093616573,Expand — add internal links / related content,click momentum +70% vs prior 4wk; avg position improved 2.0 spots; CTR beats position-expected by 1.6pp,78.0,1.6349999999999998,0.7049180327868853,811
+129,page_0174,blog,growing,0.46736536483373997,Expand — add internal links / related content,high week-to-week volatility,9.75,12.0475,0.02631578947368421,343
+130,page_0188,blog,growing,0.46735529026267425,Expand — add internal links / related content,not updated in 737d,54.25,15.895,0.10714285714285714,737
+131,page_0482,guide,growing,0.4670459083816486,Expand — add internal links / related content,click momentum +26% vs prior 4wk; CTR beats position-expected by 0.5pp; high week-to-week volatility,115.5,6.2425,0.26229508196721313,343
+132,page_0329,guide,growing,0.4655928969862111,Expand — add internal links / related content,avg position improved 1.9 spots; not updated in 605d,57.5,12.0775,0.05504587155963303,605
+133,page_0593,product,growing,0.4644567703940736,Expand — add internal links / related content,click momentum +19% vs prior 4wk; high week-to-week volatility,55.25,14.645,0.1881720430107527,343
+134,page_0503,blog,growing,0.4631807417110011,Expand — add internal links / related content,avg position improved 1.6 spots; not updated in 760d,7.25,19.314999999999998,0.07407407407407407,760
+135,page_0404,landing,growing,0.46158196021219927,Expand — add internal links / related content,not updated in 860d,15.0,15.717500000000001,0.1111111111111111,860
+136,page_0417,guide,growing,0.46112805959042125,Expand — add internal links / related content,not updated in 952d,43.0,17.1325,0.1390728476821192,952
+137,page_0578,blog,growing,0.46111221932877317,Expand — add internal links / related content,click momentum +34% vs prior 4wk; CTR beats position-expected by 1.0pp; not updated in 798d,12.75,13.030000000000001,0.34210526315789475,798
+138,page_0537,blog,growing,0.4588203992936559,Expand — add internal links / related content,click momentum +28% vs prior 4wk; not updated in 583d,8.0,13.815000000000001,0.28,583
+139,page_0101,product,growing,0.45864429400524404,Expand — add internal links / related content,click momentum +18% vs prior 4wk; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 965d,25.0,15.815000000000001,0.17647058823529413,965
+140,page_0255,guide,growing,0.4550053603388866,Expand — add internal links / related content,CTR trails position-expected by 0.8pp — metadata review candidate; not updated in 653d,34.25,4.2075,-0.028368794326241134,653
+141,page_0361,guide,growing,0.45254538844221365,Expand — add internal links / related content,click momentum +16% vs prior 4wk; not updated in 1011d,51.25,10.3125,0.16477272727272727,1011
+142,page_0098,product,growing,0.4520511420618104,Expand — add internal links / related content,not updated in 965d,7.5,22.54,0.1111111111111111,965
+143,page_0290,blog,growing,0.4517675015399871,Expand — add internal links / related content,click momentum +32% vs prior 4wk; CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 992d,18.75,8.2675,0.3157894736842105,992
+144,page_0235,blog,growing,0.44990463999962504,Expand — add internal links / related content,click momentum +25% vs prior 4wk; avg position improved 1.9 spots; CTR trails position-expected by 1.1pp — metadata review candidate,3.75,11.5075,0.25,912
+145,page_0415,blog,growing,0.4497101856253469,Expand — add internal links / related content,not updated in 756d,20.75,11.86,0.024691358024691357,756
+146,page_0512,guide,growing,0.4494534747000119,Expand — add internal links / related content,click momentum +26% vs prior 4wk; not updated in 592d,18.0,10.524999999999999,0.2631578947368421,592
+147,page_0258,blog,growing,0.4449383270566992,Expand — add internal links / related content,click momentum +25% vs prior 4wk; CTR beats position-expected by 0.5pp; not updated in 961d,32.5,20.805,0.25,961
+148,page_0460,guide,growing,0.4442598414533977,Expand — add internal links / related content,click momentum +24% vs prior 4wk; not updated in 856d,11.75,17.42,0.23684210526315788,856
+149,page_0071,guide,growing,0.4442410298669638,Expand — add internal links / related content,avg position improved 1.7 spots; not updated in 931d,26.25,27.015,0.11702127659574468,931
+150,page_0505,blog,growing,0.44342803583656903,Expand — add internal links / related content,within normal range on tracked signals,19.0,12.8075,0.0,343
+151,page_0091,blog,growing,0.44306231822005493,Expand — add internal links / related content,avg position improved 2.0 spots; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 898d,14.75,20.61,0.05357142857142857,898
+152,page_0312,blog,growing,0.4411251448017478,Expand — add internal links / related content,not updated in 760d,7.75,14.685,0.14814814814814814,760
+153,page_0142,product,growing,0.4404448401063427,Expand — add internal links / related content,not updated in 735d,8.0,13.2125,0.14285714285714285,735
+154,page_0292,guide,growing,0.43993980093033475,Expand — add internal links / related content,avg position improved 1.8 spots,10.5,16.7775,0.05,343
+155,page_0468,blog,growing,0.43985365249367553,Expand — add internal links / related content,click momentum +17% vs prior 4wk; not updated in 647d,18.75,29.305000000000003,0.171875,647
+156,page_0149,product,growing,0.4365219731827008,Expand — add internal links / related content,not updated in 947d,17.25,17.740000000000002,0.06153846153846154,947
+157,page_0436,product,growing,0.43619805115433935,Expand — add internal links / related content,not updated in 695d,13.75,20.335,0.1,695
+158,page_0064,guide,growing,0.4329624841339081,Expand — add internal links / related content,not updated in 608d,10.0,20.2275,0.08108108108108109,608
+159,page_0308,blog,growing,0.43193702846193827,Expand — add internal links / related content,click momentum +17% vs prior 4wk; CTR beats position-expected by 5.8pp; high week-to-week volatility,473.75,1.0,0.16687192118226601,343
+160,page_0582,blog,growing,0.4256659823371791,Expand — add internal links / related content,click momentum +16% vs prior 4wk; avg position improved 1.6 spots; not updated in 599d,7.25,22.982499999999998,0.16,599
+161,page_0323,blog,growing,0.4232937808400257,Expand — add internal links / related content,click momentum +24% vs prior 4wk; CTR beats position-expected by 0.5pp; not updated in 966d,22.25,9.385,0.2361111111111111,966
+162,page_0234,blog,growing,0.42290311874552433,Expand — add internal links / related content,not updated in 1050d,29.5,19.7525,0.08256880733944955,1050
+163,page_0598,guide,growing,0.4224587947822971,Expand — add internal links / related content,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 948d,48.5,5.9275,0.0374331550802139,948
+164,page_0019,blog,growing,0.421398302072933,Expand — add internal links / related content,not updated in 667d,8.0,25.247500000000002,0.10344827586206896,667
+165,page_0144,product,growing,0.419329089967552,Expand — add internal links / related content,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 837d,18.5,10.4875,0.07246376811594203,837
+166,page_0270,guide,growing,0.4188185708577828,Expand — add internal links / related content,click momentum +19% vs prior 4wk; CTR trails position-expected by 1.6pp — metadata review candidate; not updated in 944d,28.5,1.9675,0.1875,944
+167,page_0406,product,growing,0.4184500756658675,Expand — add internal links / related content,not updated in 891d,4.25,14.104999999999999,0.0625,891
+168,page_0414,blog,growing,0.4178064103231201,Expand — add internal links / related content,click momentum +23% vs prior 4wk; not updated in 731d; high week-to-week volatility,4.0,26.63,0.23076923076923078,731
+169,page_0352,blog,growing,0.4150153020735925,Expand — add internal links / related content,CTR trails position-expected by 0.5pp — metadata review candidate,53.5,14.095,0.07537688442211055,343
+170,page_0043,blog,growing,0.4147522135016839,Expand — add internal links / related content,not updated in 676d; high week-to-week volatility,2.25,12.34,0.125,676
+171,page_0266,product,growing,0.41390017729214734,Expand — add internal links / related content,click momentum +21% vs prior 4wk; high week-to-week volatility,37.0,4.5925,0.21311475409836064,343
+172,page_0231,guide,growing,0.4134085946224975,Expand — add internal links / related content,CTR beats position-expected by 3.9pp; not updated in 632d; high week-to-week volatility,211.75,1.4325,0.07215189873417721,632
+173,page_0076,blog,growing,0.41022520687611225,Expand — add internal links / related content,not updated in 944d,10.5,11.5375,0.10526315789473684,944
+174,page_0053,blog,growing,0.4100679316797736,Expand — add internal links / related content,not updated in 748d,23.5,23.83,0.056179775280898875,748
+175,page_0319,blog,growing,0.40985721446704326,Expand — add internal links / related content,CTR beats position-expected by 0.4pp; not updated in 886d,29.75,4.409999999999999,0.11214953271028037,886
+176,page_0184,blog,growing,0.40880348400723593,Expand — add internal links / related content,CTR beats position-expected by 0.7pp,26.5,9.63,0.0392156862745098,343
+177,page_0465,guide,growing,0.4048667682033818,Expand — add internal links / related content,not updated in 814d,15.25,21.722500000000004,0.05172413793103448,814
+178,page_0533,guide,growing,0.4034143074509441,Expand — add internal links / related content,not updated in 1045d; high week-to-week volatility,65.25,8.7375,0.0398406374501992,1045
+179,page_0519,blog,growing,0.395496974223325,Expand — add internal links / related content,CTR trails position-expected by 0.9pp — metadata review candidate; not updated in 651d,3.0,12.2625,0.09090909090909091,651
+180,page_0341,blog,growing,0.3938794348961771,Expand — add internal links / related content,click momentum +16% vs prior 4wk; not updated in 1030d,5.5,22.3525,0.15789473684210525,1030
+181,page_0310,blog,growing,0.39266809180150225,Expand — add internal links / related content,not updated in 1033d,77.25,15.5025,0.10357142857142858,1033
+182,page_0100,product,growing,0.3901572070948657,Expand — add internal links / related content,click momentum +31% vs prior 4wk; not updated in 1012d; high week-to-week volatility,143.25,4.8025,0.3082191780821918,1012
+183,page_0038,landing,growing,0.3901117625480315,Expand — add internal links / related content,CTR trails position-expected by 2.0pp — metadata review candidate; not updated in 1021d; high week-to-week volatility,408.25,1.4525000000000001,0.06523157208088715,1021
+184,page_0084,guide,growing,0.38856825231610054,Expand — add internal links / related content,CTR beats position-expected by 1.2pp; not updated in 1001d,10.0,3.5900000000000003,-0.024390243902439025,1001
+185,page_0017,blog,growing,0.3849880254572541,Expand — add internal links / related content,not updated in 723d,10.75,31.5775,0.04878048780487805,723
+186,page_0583,blog,growing,0.3844621625049344,Expand — add internal links / related content,CTR beats position-expected by 0.7pp; not updated in 705d,4.5,5.425,0.0,705
+187,page_0020,blog,growing,0.38183152631956035,Expand — add internal links / related content,click momentum +21% vs prior 4wk; CTR trails position-expected by 1.4pp — metadata review candidate; not updated in 653d,37.0,1.1975,0.21311475409836064,653
+188,page_0118,product,growing,0.38063875775561995,Expand — add internal links / related content,CTR trails position-expected by 4.3pp — metadata review candidate; high week-to-week volatility,156.0,3.2225,0.10638297872340426,343
+189,page_0318,product,growing,0.37821552425999433,Expand — add internal links / related content,click momentum +15% vs prior 4wk; not updated in 849d,3.75,17.099999999999998,0.15384615384615385,849
+190,page_0527,blog,growing,0.3773018522776723,Expand — add internal links / related content,click momentum +22% vs prior 4wk; high week-to-week volatility,134.75,1.5474999999999999,0.21945701357466063,343
+191,page_0580,blog,growing,0.37654586906602233,Expand — add internal links / related content,not updated in 1028d; high week-to-week volatility,3.0,18.2275,0.09090909090909091,1028
+192,page_0473,product,growing,0.3728615707394295,Expand — add internal links / related content,click momentum +21% vs prior 4wk; CTR trails position-expected by 1.1pp — metadata review candidate; not updated in 828d,10.0,7.067499999999999,0.21212121212121213,828
+193,page_0277,landing,growing,0.3699871199959391,Expand — add internal links / related content,CTR trails position-expected by 0.9pp — metadata review candidate,233.75,2.3425,0.13470873786407767,343
+194,page_0584,blog,growing,0.36694410979170994,Expand — add internal links / related content,click momentum +31% vs prior 4wk; CTR trails position-expected by 1.3pp — metadata review candidate; high week-to-week volatility,51.75,1.9949999999999999,0.310126582278481,343
+195,page_0514,guide,stable,0.6607699602296382,Protect,avg position improved 1.8 spots; CTR beats position-expected by 0.5pp; not updated in 1011d,77.5,20.19,-0.05198776758409786,1011
+196,page_0273,product,stable,0.6294292444521653,Protect,not updated in 976d; high week-to-week volatility,95.75,29.255,-0.030379746835443037,976
+197,page_0412,blog,stable,0.627805790513296,Protect,avg position slipped 1.7 spots; not updated in 1045d,29.25,32.025,-0.07874015748031496,1045
+198,page_0431,landing,stable,0.6100585665868455,Protect,CTR beats position-expected by 0.7pp; not updated in 821d,9.0,16.405,-0.14285714285714285,821
+199,page_0046,blog,stable,0.5992065234008707,Protect,not updated in 653d,15.5,11.6475,-0.03125,653
+200,page_0155,guide,stable,0.5868075570718303,Protect,not updated in 617d,86.5,30.7325,-0.03888888888888889,617
+201,page_0050,blog,stable,0.5851247127994919,Protect,not updated in 586d,1.0,22.759999999999998,0.0,586
+202,page_0558,blog,stable,0.5795336847448762,Protect,avg position slipped 2.2 spots; CTR beats position-expected by 0.5pp; not updated in 845d,3.0,23.7125,-0.14285714285714285,845
+203,page_0256,blog,stable,0.5761203945943986,Protect,CTR beats position-expected by 0.5pp; not updated in 640d,165.0,14.817499999999999,0.009174311926605505,640
+204,page_0435,blog,stable,0.5758469419443014,Protect,avg position slipped 1.9 spots; not updated in 624d,2.75,29.39,-0.08333333333333333,624
+205,page_0500,product,stable,0.5750642723609014,Protect,click momentum +26% vs prior 4wk; CTR beats position-expected by 0.7pp; not updated in 1027d,72.5,16.735,0.2608695652173913,1027
+206,page_0110,product,stable,0.5746320510510119,Protect,CTR beats position-expected by 0.7pp; not updated in 781d,17.75,14.9725,-0.08974358974358974,781
+207,page_0469,guide,stable,0.5715336348317693,Protect,avg position slipped 1.6 spots; not updated in 736d,5.5,25.687500000000004,-0.08333333333333333,736
+208,page_0421,guide,stable,0.5708679369236512,Protect,avg position improved 1.7 spots; not updated in 962d,307.0,9.754999999999999,0.06968641114982578,962
+209,page_0585,blog,stable,0.5699625633180331,Protect,not updated in 1006d,20.5,27.92,-0.1368421052631579,1006
+210,page_0206,landing,stable,0.5656556429001681,Protect,not updated in 823d,20.75,14.4575,-0.07777777777777778,823
+211,page_0171,blog,stable,0.5648407614882123,Protect,CTR beats position-expected by 0.3pp; not updated in 953d,15.5,23.29,-0.03125,953
+212,page_0238,product,stable,0.5612220562387773,Protect,not updated in 642d,37.75,23.5425,0.07857142857142857,642
+213,page_0051,guide,stable,0.5611377740132542,Protect,avg position slipped 1.6 spots; not updated in 785d,16.0,25.435,-0.058823529411764705,785
+214,page_0194,product,stable,0.5583646412297032,Protect,avg position improved 3.2 spots; not updated in 716d,18.0,13.2675,0.02857142857142857,716
+215,page_0433,blog,stable,0.5580841559768683,Protect,CTR beats position-expected by 0.4pp; not updated in 645d,14.25,21.2225,-0.017241379310344827,645
+216,page_0330,blog,stable,0.5519949653304711,Protect,avg position slipped 1.6 spots; not updated in 946d,14.0,21.0425,-0.06666666666666667,946
+217,page_0248,product,stable,0.5512221400980025,Protect,click momentum +16% vs prior 4wk; avg position slipped 2.3 spots; CTR beats position-expected by 0.6pp,29.75,31.1725,0.1553398058252427,938
+218,page_0306,landing,stable,0.5497334961205385,Protect,not updated in 759d,125.75,9.805,-0.10815602836879433,759
+219,page_0393,guide,stable,0.5494168963333911,Protect,within normal range on tracked signals,139.75,14.47,0.027573529411764705,343
+220,page_0089,product,stable,0.5491901434906674,Protect,avg position slipped 1.9 spots; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 1042d,4.0,15.615000000000002,-0.1111111111111111,1042
+221,page_0498,blog,stable,0.5477696387720207,Protect,avg position improved 1.8 spots; not updated in 847d,2.0,25.294999999999998,0.0,847
+222,page_0351,blog,stable,0.5458646583052645,Protect,avg position slipped 2.0 spots; CTR beats position-expected by 0.6pp; not updated in 962d,17.75,22.44,-0.08974358974358974,962
+223,page_0349,product,stable,0.5453556095528547,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 661d,26.75,21.815,0.07,661
+224,page_0313,blog,stable,0.544633319086123,Protect,CTR beats position-expected by 0.5pp; not updated in 718d,292.0,14.855,0.040998217468805706,718
+225,page_0535,guide,stable,0.5439525399020053,Protect,click momentum +17% vs prior 4wk; not updated in 878d; high week-to-week volatility,43.75,22.94,0.16666666666666666,878
+226,page_0556,product,stable,0.543470166661028,Protect,not updated in 754d,40.75,30.9225,0.006172839506172839,754
+227,page_0063,guide,stable,0.5410445493674624,Protect,avg position slipped 1.9 spots; not updated in 619d,5.25,28.0975,0.05,619
+228,page_0515,blog,stable,0.5405850254427053,Protect,avg position improved 1.7 spots; not updated in 838d,27.25,18.0,0.04807692307692308,838
+229,page_0127,blog,stable,0.5398753230283535,Protect,CTR beats position-expected by 1.1pp; not updated in 754d,1.0,25.292499999999997,0.0,754
+230,page_0069,guide,stable,0.538622106331987,Protect,within normal range on tracked signals,9.25,23.345,0.05714285714285714,343
+231,page_0240,blog,stable,0.5382918974937853,Protect,not updated in 699d,61.75,23.6325,-0.060836501901140684,699
+232,page_0419,guide,stable,0.5327945337473878,Protect,click momentum +15% vs prior 4wk; not updated in 910d,160.75,15.3175,0.15026833631484796,910
+233,page_0428,blog,stable,0.5318417550574424,Protect,not updated in 975d,11.0,32.79,0.047619047619047616,975
+234,page_0106,blog,stable,0.5314926669360963,Protect,CTR beats position-expected by 0.8pp; not updated in 677d,1.0,22.7775,0.0,677
+235,page_0145,product,stable,0.531079143508441,Protect,not updated in 807d,28.75,26.115000000000002,-0.05737704918032787,807
+236,page_0443,guide,stable,0.5308199285878343,Protect,not updated in 774d,21.0,19.77,0.024390243902439025,774
+237,page_0444,blog,stable,0.530716238891046,Protect,"not updated in 796d; was declining, now turning up",83.75,20.785,0.0029940119760479044,796
+238,page_0357,guide,stable,0.5307036971460254,Protect,avg position improved 1.7 spots; not updated in 944d,3.0,31.105,0.0,944
+239,page_0015,product,stable,0.5289263482639349,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 791d,13.0,22.665000000000003,0.13043478260869565,791
+240,page_0012,blog,stable,0.5286819461197636,Protect,not updated in 1071d,93.75,25.6575,-0.11971830985915492,1071
+241,page_0445,blog,stable,0.5271987597501298,Protect,CTR beats position-expected by 0.7pp; not updated in 1044d,164.25,5.789999999999999,0.04285714285714286,1044
+242,page_0590,product,stable,0.5270999553029618,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 939d,25.25,23.3975,-0.056074766355140186,939
+243,page_0047,blog,stable,0.526508824435435,Protect,not updated in 800d,27.25,21.564999999999998,0.09,800
+244,page_0154,product,stable,0.5261193453641047,Protect,avg position slipped 2.4 spots; not updated in 1054d,9.25,22.055,-0.05128205128205128,1054
+245,page_0302,product,stable,0.5221672606465233,Protect,not updated in 983d,10.0,19.155,0.1111111111111111,983
+246,page_0488,blog,stable,0.521914218599724,Protect,not updated in 1061d,21.0,32.5675,0.07692307692307693,1061
+247,page_0169,blog,stable,0.521532002080055,Protect,not updated in 1028d,1.0,18.6975,0.0,1028
+248,page_0303,blog,stable,0.5211362228779642,Protect,avg position improved 2.4 spots; CTR trails position-expected by 0.3pp — metadata review candidate; not updated in 643d,8.75,21.345000000000002,-0.10256410256410256,643
+249,page_0376,landing,stable,0.5200046652686272,Protect,not updated in 762d; high week-to-week volatility,2.0,30.34,0.0,762
+250,page_0304,blog,stable,0.5187728241668744,Protect,CTR trails position-expected by 0.3pp — metadata review candidate; not updated in 892d,3.0,20.465,0.0,892
+251,page_0286,blog,stable,0.518690896230605,Protect,not updated in 699d,31.75,18.315,-0.11805555555555555,699
+252,page_0456,blog,stable,0.5183371003943311,Protect,CTR beats position-expected by 0.7pp; not updated in 895d,1.0,18.5325,0.0,895
+253,page_0062,blog,stable,0.5182899611422997,Protect,avg position slipped 1.5 spots; not updated in 1028d; high week-to-week volatility,2.25,37.3925,-0.1,1028
+254,page_0183,guide,stable,0.5180941801101283,Protect,not updated in 746d,19.75,35.7475,-0.04819277108433735,746
+255,page_0447,blog,stable,0.515091385061733,Protect,not updated in 689d,139.25,22.7825,-0.037996545768566495,689
+256,page_0354,landing,stable,0.5147823555922224,Protect,avg position improved 1.7 spots; CTR beats position-expected by 0.7pp; not updated in 684d,67.0,15.854999999999999,0.14042553191489363,684
+257,page_0220,product,stable,0.5139649954655181,Protect,avg position improved 1.8 spots; CTR beats position-expected by 1.3pp; not updated in 889d,263.25,7.7675,-0.025901942645698426,889
+258,page_0301,guide,stable,0.5139433351916093,Protect,CTR trails position-expected by 0.6pp — metadata review candidate,24.75,19.9125,0.042105263157894736,343
+259,page_0478,guide,stable,0.5136666086301567,Protect,CTR beats position-expected by 0.4pp,195.0,17.4625,0.06557377049180328,343
+260,page_0261,blog,stable,0.512753126895281,Protect,not updated in 779d,1.0,24.092499999999998,0.0,779
+261,page_0236,landing,stable,0.511349083039237,Protect,not updated in 670d,154.75,18.705,-0.04327666151468315,670
+262,page_0196,landing,stable,0.5112032761395798,Protect,avg position improved 2.0 spots; not updated in 819d; high week-to-week volatility,2.5,23.8675,-0.09090909090909091,819
+263,page_0476,blog,stable,0.5107164786186843,Protect,not updated in 802d,124.5,16.4925,-0.013861386138613862,802
+264,page_0356,product,stable,0.5102254174764791,Protect,not updated in 611d; high week-to-week volatility,2.5,23.455,-0.09090909090909091,611
+265,page_0564,blog,stable,0.5100262212002836,Protect,not updated in 666d,12.5,27.869999999999997,-0.05660377358490566,666
+266,page_0416,blog,stable,0.5093337810180042,Protect,not updated in 1052d,104.75,13.045,-0.06263982102908278,1052
+267,page_0411,product,stable,0.5089924714087073,Protect,within normal range on tracked signals,84.0,23.05,0.01818181818181818,343
+268,page_0130,guide,stable,0.507926752003417,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 781d; high week-to-week volatility,2.0,17.247500000000002,0.0,781
+269,page_0471,blog,stable,0.5078303038826709,Protect,not updated in 833d,135.5,11.5,-0.04409171075837742,833
+270,page_0509,blog,stable,0.5053062017475826,Protect,not updated in 819d,22.0,26.447499999999998,-0.043478260869565216,819
+271,page_0215,product,stable,0.5042664329326235,Protect,not updated in 806d,14.0,23.8575,-0.034482758620689655,806
+272,page_0467,landing,stable,0.5041103071055486,Protect,not updated in 688d; high week-to-week volatility,15.5,25.775,-0.046153846153846156,688
+273,page_0586,guide,stable,0.503639750788682,Protect,click momentum +18% vs prior 4wk,1242.5,13.552500000000002,0.17660984848484848,343
+274,page_0237,blog,stable,0.5027933569426605,Protect,not updated in 851d,59.75,13.19,0.004201680672268907,851
+275,page_0336,guide,stable,0.5024721922104203,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 892d,62.25,25.794999999999998,0.10176991150442478,892
+276,page_0115,blog,stable,0.5023645454989032,Protect,CTR beats position-expected by 0.4pp; not updated in 936d,11.75,17.8075,-0.04081632653061224,936
+277,page_0104,blog,stable,0.5021973097530603,Protect,avg position improved 2.0 spots; not updated in 901d,8.25,25.520000000000003,0.06451612903225806,901
+278,page_0000,guide,stable,0.5017728369973404,Protect,CTR beats position-expected by 0.6pp; not updated in 800d,14.75,19.865000000000002,0.03508771929824561,800
+279,page_0186,landing,stable,0.5004654188714971,Protect,click momentum +22% vs prior 4wk; high week-to-week volatility,230.5,13.1975,0.21635883905013192,343
+280,page_0442,blog,stable,0.5001504973526095,Protect,avg position slipped 2.0 spots; not updated in 949d,2.0,28.28,0.0,949
+281,page_0107,product,stable,0.49916423508906066,Protect,not updated in 764d,8.0,19.3425,-0.1111111111111111,764
+282,page_0491,landing,stable,0.4987610776700857,Protect,click momentum +20% vs prior 4wk; avg position improved 1.5 spots; not updated in 670d,4.5,21.1775,0.2,670
+283,page_0325,blog,stable,0.49834075804247974,Protect,click momentum +18% vs prior 4wk; not updated in 1014d,37.75,34.00749999999999,0.1796875,1014
+284,page_0085,blog,stable,0.4962748671641774,Protect,not updated in 1066d,12.5,24.3625,0.0,1066
+285,page_0289,guide,stable,0.49621157908353086,Protect,click momentum +23% vs prior 4wk; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 906d,4.0,21.925,0.23076923076923078,906
+286,page_0413,blog,stable,0.4960701128970717,Protect,avg position improved 2.1 spots; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 767d,12.25,23.342499999999998,-0.057692307692307696,767
+287,page_0224,guide,stable,0.49596523709519197,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 985d,12.5,17.357499999999998,-0.038461538461538464,985
+288,page_0233,blog,stable,0.49554244063128355,Protect,CTR beats position-expected by 0.4pp; not updated in 781d,109.5,16.6875,0.006896551724137931,781
+289,page_0305,blog,stable,0.4951826898226932,Protect,avg position slipped 1.6 spots; not updated in 857d,153.25,10.665000000000001,-0.0016286644951140066,857
+290,page_0087,guide,stable,0.4948799397424587,Protect,within normal range on tracked signals,50.25,17.177500000000002,-0.0779816513761468,343
+291,page_0484,guide,stable,0.4946540299023784,Protect,not updated in 653d,83.5,12.6525,0.12837837837837837,653
+292,page_0022,guide,stable,0.49428480702197575,Protect,avg position improved 1.7 spots; not updated in 662d,6.5,23.2725,0.08333333333333333,662
+293,page_0458,guide,stable,0.4942758985982951,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 604d; high week-to-week volatility,2.25,18.700000000000003,0.125,604
+294,page_0221,blog,stable,0.4942429462764594,Protect,avg position improved 1.7 spots; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 1001d,11.0,19.134999999999998,-0.12,1001
+295,page_0013,product,stable,0.4939428429720042,Protect,not updated in 974d,17.5,19.927500000000002,-0.05405405405405406,974
+296,page_0489,guide,stable,0.4935527065575154,Protect,avg position improved 1.6 spots; CTR beats position-expected by 0.5pp; not updated in 842d,27.0,12.26,0.02857142857142857,842
+297,page_0594,product,stable,0.49319957604782916,Protect,CTR beats position-expected by 0.4pp; not updated in 716d,119.5,19.205,-0.04590818363273453,716
+298,page_0180,blog,stable,0.49269490662267457,Protect,click momentum +22% vs prior 4wk; CTR beats position-expected by 0.9pp; not updated in 642d,101.75,15.697500000000002,0.218562874251497,642
+299,page_0116,blog,stable,0.49262414173105207,Protect,CTR trails position-expected by 1.2pp — metadata review candidate; not updated in 981d,89.0,11.305000000000001,-0.050666666666666665,981
+300,page_0291,blog,stable,0.49257988725052776,Protect,not updated in 652d,33.25,20.150000000000002,-0.13071895424836602,652
+301,page_0599,product,stable,0.49233694792766236,Protect,CTR trails position-expected by 1.0pp — metadata review candidate,134.5,7.2075,0.011278195488721804,343
+302,page_0327,guide,stable,0.4912420335808422,Protect,not updated in 914d,5.75,23.924999999999997,0.15,914
+303,page_0005,blog,stable,0.4910125737155038,Protect,not updated in 908d,10.5,14.01,0.05,908
+304,page_0189,blog,stable,0.4907593097642365,Protect,not updated in 642d,125.75,16.13,0.006,642
+305,page_0150,blog,stable,0.4907093770747122,Protect,CTR beats position-expected by 0.4pp; not updated in 855d,18.5,18.1425,-0.075,855
+306,page_0504,blog,stable,0.49068199232564624,Protect,CTR beats position-expected by 0.5pp; not updated in 1025d,2.0,18.66,0.0,1025
+307,page_0563,landing,stable,0.49044087189978436,Protect,CTR beats position-expected by 0.7pp; not updated in 718d,31.25,20.787499999999998,-0.11347517730496454,718
+308,page_0350,guide,stable,0.49026075047436996,Protect,avg position slipped 1.7 spots; not updated in 882d,11.25,26.617500000000003,-0.11764705882352941,882
+309,page_0370,guide,stable,0.4897290733614847,Protect,within normal range on tracked signals,32.25,26.51,0.12173913043478261,343
+310,page_0577,blog,stable,0.4896045578744868,Protect,click momentum +21% vs prior 4wk,194.25,23.2,0.2140625,343
+311,page_0575,landing,stable,0.4878945978862111,Protect,click momentum +29% vs prior 4wk; avg position improved 1.9 spots; not updated in 969d,66.0,17.0125,0.28780487804878047,969
+312,page_0027,guide,stable,0.4878755563344278,Protect,not updated in 950d,7.5,24.2825,-0.11764705882352941,950
+313,page_0138,guide,stable,0.48647849728079956,Protect,not updated in 888d,4.5,25.5025,0.125,888
+314,page_0545,guide,stable,0.48513718792997673,Protect,CTR beats position-expected by 0.6pp; not updated in 1052d,1.0,32.1575,0.0,1052
+315,page_0117,blog,stable,0.4846064295091617,Protect,click momentum +19% vs prior 4wk; CTR beats position-expected by 0.5pp; not updated in 819d,55.75,34.23,0.18617021276595744,819
+316,page_0074,guide,stable,0.4843956367382534,Protect,not updated in 921d,45.25,9.8275,-0.1380952380952381,921
+317,page_0288,guide,stable,0.48360729961616566,Protect,click momentum +34% vs prior 4wk; CTR beats position-expected by 1.1pp; not updated in 896d,360.25,7.6575,0.34421641791044777,896
+318,page_0226,product,stable,0.482452735349442,Protect,not updated in 822d,3.0,25.74,0.09090909090909091,822
+319,page_0490,landing,stable,0.4819738548627005,Protect,click momentum +16% vs prior 4wk,39.0,22.75,0.16417910447761194,343
+320,page_0369,guide,stable,0.4815230783239504,Protect,not updated in 987d,4.5,13.4175,0.058823529411764705,987
+321,page_0359,guide,stable,0.48145014471122505,Protect,click momentum +16% vs prior 4wk; not updated in 883d,64.25,25.262499999999996,0.16289592760180996,883
+322,page_0298,blog,stable,0.4809757091130043,Protect,not updated in 859d,6.5,22.119999999999997,-0.07142857142857142,859
+323,page_0506,blog,stable,0.48034008707310416,Protect,not updated in 1062d,12.5,22.285000000000004,-0.09090909090909091,1062
+324,page_0513,blog,stable,0.4798294728318575,Protect,avg position improved 2.5 spots; not updated in 1028d,8.0,13.4975,0.0,1028
+325,page_0495,product,stable,0.47949131474079576,Protect,avg position slipped 2.3 spots; CTR trails position-expected by 0.8pp — metadata review candidate; not updated in 610d,7.25,14.8775,0.07407407407407407,610
+326,page_0132,product,stable,0.47920218058702946,Protect,not updated in 652d,274.5,9.0825,-0.11948676824378508,652
+327,page_0011,blog,stable,0.47850510791558554,Protect,not updated in 783d,5.25,24.4525,-0.08695652173913043,783
+328,page_0595,blog,stable,0.4780167416275948,Protect,CTR beats position-expected by 0.5pp; not updated in 1057d,13.0,23.8075,-0.11864406779661017,1057
+329,page_0278,product,stable,0.47757703054343154,Protect,not updated in 732d,28.25,13.857499999999998,-0.017391304347826087,732
+330,page_0343,landing,stable,0.47732399475008835,Protect,CTR beats position-expected by 0.4pp; not updated in 823d,36.25,20.82,0.006944444444444444,823
+331,page_0193,guide,stable,0.47711772530274016,Protect,not updated in 1046d,6.5,18.802500000000002,0.0,1046
+332,page_0409,blog,stable,0.47677046776763743,Protect,CTR trails position-expected by 1.6pp — metadata review candidate; not updated in 850d; high week-to-week volatility,0.0,27.0,0.0,850
+333,page_0378,landing,stable,0.47661836616162934,Protect,not updated in 717d,42.0,21.7675,-0.061452513966480445,717
+334,page_0333,landing,stable,0.475585997076067,Protect,CTR beats position-expected by 0.3pp; not updated in 585d,6.0,19.912499999999998,0.043478260869565216,585
+335,page_0262,blog,stable,0.47548211067900603,Protect,not updated in 795d,123.75,17.060000000000002,-0.04807692307692308,795
+336,page_0360,blog,stable,0.4752900489258256,Protect,not updated in 1004d,13.75,19.792499999999997,-0.08333333333333333,1004
+337,page_0245,guide,stable,0.47417929388044866,Protect,not updated in 968d,4.75,13.9925,-0.09523809523809523,968
+338,page_0481,blog,stable,0.4739689139779584,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 824d,2.75,17.625,0.0,824
+339,page_0364,product,stable,0.4738478466217969,Protect,not updated in 933d,13.25,26.35,-0.08620689655172414,933
+340,page_0543,product,stable,0.47360852375935014,Protect,not updated in 815d,6.75,17.537499999999998,-0.1,815
+341,page_0526,blog,stable,0.47321634500306964,Protect,CTR trails position-expected by 0.3pp — metadata review candidate; not updated in 910d,16.0,22.834999999999997,0.04918032786885246,910
+342,page_0023,blog,stable,0.47292497228804187,Protect,click momentum +20% vs prior 4wk; CTR beats position-expected by 0.8pp; not updated in 678d,36.25,8.72,0.19834710743801653,678
+343,page_0559,guide,stable,0.47291344523415224,Protect,not updated in 821d,39.0,18.2675,0.0684931506849315,821
+344,page_0300,guide,stable,0.4726444147864051,Protect,CTR beats position-expected by 0.9pp,112.0,10.5,-0.0066518847006651885,343
+345,page_0529,product,stable,0.4725895216657492,Protect,click momentum +23% vs prior 4wk; CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 986d,9.5,19.060000000000002,0.22580645161290322,986
+346,page_0311,blog,stable,0.47254446685111146,Protect,within normal range on tracked signals,45.0,12.5125,0.011235955056179775,343
+347,page_0446,guide,stable,0.4723440759811728,Protect,click momentum +25% vs prior 4wk; not updated in 651d,3.75,25.8625,0.25,651
+348,page_0365,product,stable,0.4718173978228156,Protect,within normal range on tracked signals,179.75,16.04,0.0527086383601757,343
+349,page_0434,guide,stable,0.471630735681835,Protect,not updated in 892d,6.25,22.8225,0.041666666666666664,892
+350,page_0362,blog,stable,0.4711457578350227,Protect,CTR beats position-expected by 0.6pp; not updated in 881d,20.0,19.265,0.0,881
+351,page_0328,product,stable,0.4706997586416229,Protect,not updated in 977d,22.5,27.4675,-0.07216494845360824,977
+352,page_0228,blog,stable,0.4702886037831215,Protect,avg position slipped 1.9 spots,33.5,19.5225,-0.03597122302158273,343
+353,page_0430,blog,stable,0.4698635913343311,Protect,click momentum +23% vs prior 4wk; CTR beats position-expected by 0.5pp,174.25,19.615,0.2336283185840708,343
+354,page_0095,landing,stable,0.4695235469443573,Protect,not updated in 926d,17.0,20.994999999999997,0.030303030303030304,926
+355,page_0048,blog,stable,0.46917339863272545,Protect,not updated in 758d,19.75,7.657500000000001,0.06756756756756757,758
+356,page_0449,landing,stable,0.4691290748149102,Protect,not updated in 941d,17.75,25.1,-0.13414634146341464,941
+357,page_0153,blog,stable,0.46898587190778845,Protect,"CTR beats position-expected by 0.5pp; not updated in 605d; was declining, now turning up",67.5,25.1725,0.06719367588932806,605
+358,page_0109,product,stable,0.4687805945160687,Protect,not updated in 647d,1.0,25.4375,0.0,647
+359,page_0059,guide,stable,0.4684675680634473,Protect,CTR beats position-expected by 0.6pp; not updated in 750d,10.25,14.9925,-0.08888888888888889,750
+360,page_0080,blog,stable,0.46831542860573727,Protect,avg position improved 2.3 spots; CTR trails position-expected by 0.9pp — metadata review candidate; not updated in 848d,6.0,13.315,0.09090909090909091,848
+361,page_0081,guide,stable,0.46799139503115894,Protect,not updated in 747d,3.0,31.965,0.09090909090909091,747
+362,page_0252,product,stable,0.4671130429856272,Protect,not updated in 662d,5.5,27.715,-0.043478260869565216,662
+363,page_0347,guide,stable,0.4668026781488316,Protect,CTR beats position-expected by 0.7pp; not updated in 772d,1.0,25.4125,0.0,772
+364,page_0422,guide,stable,0.466456035906118,Protect,not updated in 654d,23.5,21.79,-0.10476190476190476,654
+365,page_0033,blog,stable,0.46587520276177524,Protect,not updated in 690d,8.5,21.355,0.0967741935483871,690
+366,page_0025,blog,stable,0.4657380909743889,Protect,CTR beats position-expected by 0.4pp; not updated in 681d,36.75,13.08,0.06521739130434782,681
+367,page_0230,guide,stable,0.4655109831313103,Protect,CTR beats position-expected by 0.4pp; not updated in 1029d,24.25,11.735,-0.039603960396039604,1029
+368,page_0250,landing,stable,0.4648654985644371,Protect,avg position slipped 2.2 spots; not updated in 776d,24.75,19.9025,-0.029411764705882353,776
+369,page_0052,blog,stable,0.4646820534068063,Protect,click momentum +20% vs prior 4wk,56.0,27.42,0.20430107526881722,343
+370,page_0009,blog,stable,0.46438002773203346,Protect,CTR beats position-expected by 0.4pp; not updated in 833d; high week-to-week volatility,2.25,18.6375,0.125,833
+371,page_0555,guide,stable,0.4641937218281197,Protect,not updated in 839d,21.5,20.779999999999998,-0.022727272727272728,839
+372,page_0591,product,stable,0.4641417443739954,Protect,avg position slipped 2.2 spots; not updated in 940d,11.5,16.52,0.045454545454545456,940
+373,page_0483,blog,stable,0.4632531371880111,Protect,not updated in 792d,16.0,32.365,-0.015384615384615385,792
+374,page_0241,blog,stable,0.4629110005424246,Protect,within normal range on tracked signals,22.25,21.082500000000003,-0.06315789473684211,343
+375,page_0075,product,stable,0.46219466577886015,Protect,CTR trails position-expected by 0.5pp — metadata review candidate,264.25,6.6,-0.002830188679245283,343
+376,page_0523,guide,stable,0.46197234050904573,Protect,within normal range on tracked signals,22.75,30.294999999999998,0.04597701149425287,343
+377,page_0522,blog,stable,0.4618920328875384,Protect,click momentum +27% vs prior 4wk; avg position improved 1.7 spots; CTR trails position-expected by 0.7pp — metadata review candidate,16.25,9.657499999999999,0.27450980392156865,343
+378,page_0314,product,stable,0.46159049202058705,Protect,CTR beats position-expected by 0.4pp; not updated in 942d,13.25,25.375000000000004,0.0392156862745098,942
+379,page_0457,blog,stable,0.46142681441494854,Protect,CTR beats position-expected by 0.6pp; not updated in 818d,9.5,13.5775,0.02702702702702703,818
+380,page_0337,guide,stable,0.4611623621840719,Protect,not updated in 626d,17.5,24.8775,-0.014084507042253521,626
+381,page_0032,blog,stable,0.46100971027042487,Protect,CTR beats position-expected by 1.6pp; not updated in 938d,10.5,12.1775,-0.045454545454545456,938
+382,page_0204,guide,stable,0.4610077249670685,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; high week-to-week volatility,2.5,27.447500000000005,0.1111111111111111,343
+383,page_0163,blog,stable,0.4608311086337144,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 834d,5.0,24.162499999999998,-0.047619047619047616,834
+384,page_0210,blog,stable,0.46036541772881523,Protect,CTR beats position-expected by 0.6pp; not updated in 607d,26.0,20.6225,0.050505050505050504,607
+385,page_0534,landing,stable,0.4602889589756841,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 628d,20.5,20.520000000000003,0.0,628
+386,page_0567,blog,stable,0.46021283711313776,Protect,not updated in 691d,10.25,24.475,-0.06818181818181818,691
+387,page_0340,product,stable,0.45988293225492155,Protect,not updated in 1062d,16.75,18.552500000000002,-0.0821917808219178,1062
+388,page_0105,product,stable,0.4594529000245273,Protect,click momentum +22% vs prior 4wk; not updated in 1054d; high week-to-week volatility,2.75,30.175,0.2222222222222222,1054
+389,page_0501,blog,stable,0.4587373842900991,Protect,within normal range on tracked signals,74.25,10.115,0.0683453237410072,343
+390,page_0139,blog,stable,0.45811432914186084,Protect,not updated in 841d,3.25,24.009999999999998,0.08333333333333333,841
+391,page_0353,blog,stable,0.4580382736476409,Protect,not updated in 881d; high week-to-week volatility,26.5,8.425,-0.05357142857142857,881
+392,page_0126,guide,stable,0.4578490096346781,Protect,not updated in 606d,37.75,17.1325,-0.10119047619047619,606
+393,page_0267,product,stable,0.45712143979421094,Protect,CTR trails position-expected by 0.9pp — metadata review candidate; not updated in 975d,24.0,10.335,0.02127659574468085,975
+394,page_0058,blog,stable,0.4570907298112896,Protect,click momentum +17% vs prior 4wk; not updated in 622d,6.75,25.4875,0.17391304347826086,622
+395,page_0403,blog,stable,0.4568950522214864,Protect,not updated in 908d,9.25,17.747500000000002,-0.13953488372093023,908
+396,page_0451,blog,stable,0.4567138034328555,Protect,CTR beats position-expected by 0.4pp; not updated in 736d,10.25,24.25,0.0,736
+397,page_0388,blog,stable,0.4566939006948771,Protect,CTR beats position-expected by 1.6pp; not updated in 660d,1.0,33.4325,0.0,660
+398,page_0588,guide,stable,0.45628736853220486,Protect,CTR beats position-expected by 0.4pp; not updated in 686d,37.75,13.114999999999998,0.07857142857142857,686
+399,page_0272,guide,stable,0.4562101965011835,Protect,not updated in 954d,38.25,10.9575,0.07746478873239436,954
+400,page_0295,product,stable,0.45608001048773483,Protect,CTR beats position-expected by 0.7pp; not updated in 973d,40.5,9.7425,-0.14285714285714285,973
+401,page_0390,blog,stable,0.45506007131965576,Protect,CTR beats position-expected by 0.4pp; not updated in 782d,83.5,14.222499999999998,0.1360544217687075,782
+402,page_0122,landing,stable,0.4548333254466613,Protect,not updated in 864d,5.0,18.7,0.1111111111111111,864
+403,page_0407,product,stable,0.45477258727367187,Protect,CTR beats position-expected by 0.4pp; not updated in 757d,15.5,20.177500000000002,0.01639344262295082,757
+404,page_0320,blog,stable,0.45464146531036154,Protect,click momentum +33% vs prior 4wk; not updated in 644d,9.0,23.3125,0.3333333333333333,644
+405,page_0470,blog,stable,0.4545914028838748,Protect,click momentum +17% vs prior 4wk; not updated in 675d,12.25,23.505000000000003,0.16666666666666666,675
+406,page_0400,guide,stable,0.45427385109087903,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 581d,75.25,15.5225,-0.022727272727272728,581
+407,page_0187,product,stable,0.45424411294872863,Protect,not updated in 917d,34.5,17.8475,-0.061224489795918366,917
+408,page_0160,product,stable,0.45387322843567934,Protect,not updated in 855d,14.5,26.047500000000003,0.07407407407407407,855
+409,page_0178,blog,stable,0.45284803827866776,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 863d,11.25,10.5425,-0.0425531914893617,863
+410,page_0120,product,stable,0.4527932148947942,Protect,not updated in 671d,6.5,27.802500000000002,0.08333333333333333,671
+411,page_0181,blog,stable,0.45272330146082895,Protect,not updated in 947d,3.0,22.07,0.09090909090909091,947
+412,page_0119,landing,stable,0.4526210646284883,Protect,within normal range on tracked signals,9.25,29.6325,0.12121212121212122,343
+413,page_0342,guide,stable,0.4525094184636986,Protect,CTR beats position-expected by 0.8pp; not updated in 990d,66.75,13.04,0.1125,990
+414,page_0344,product,stable,0.45240549136595504,Protect,click momentum +25% vs prior 4wk; avg position improved 2.3 spots; CTR beats position-expected by 1.2pp,18.5,14.244999999999997,0.2542372881355932,343
+415,page_0021,blog,stable,0.45221346031855364,Protect,CTR beats position-expected by 0.6pp; not updated in 926d,14.0,9.809999999999999,0.14285714285714285,926
+416,page_0156,product,stable,0.451605864140515,Protect,not updated in 959d,3.25,21.837500000000002,-0.13333333333333333,959
+417,page_0103,guide,stable,0.4511907829576323,Protect,click momentum +17% vs prior 4wk; not updated in 752d,7.0,21.4125,0.16666666666666666,752
+418,page_0164,landing,stable,0.45101279839051456,Protect,within normal range on tracked signals,71.0,5.755,0.05185185185185185,343
+419,page_0185,guide,stable,0.450874087229822,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 989d,22.25,24.7675,0.011363636363636364,989
+420,page_0438,guide,stable,0.450452631220132,Protect,within normal range on tracked signals,95.0,18.6725,0.0584958217270195,343
+421,page_0472,product,stable,0.4501708406333628,Protect,CTR beats position-expected by 0.9pp; not updated in 663d,34.25,15.59,-0.05517241379310345,663
+422,page_0493,blog,stable,0.4499989354844541,Protect,not updated in 1026d,2.0,15.77,0.0,1026
+423,page_0528,blog,stable,0.44993956579718286,Protect,not updated in 748d,3.5,25.055,-0.06666666666666667,748
+424,page_0269,guide,stable,0.4494749757689489,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 919d,8.5,16.9175,0.0625,919
+425,page_0377,product,stable,0.4491454700722674,Protect,not updated in 725d,29.75,17.0,0.02586206896551724,725
+426,page_0222,guide,stable,0.44885084617661625,Protect,not updated in 864d,2.0,34.972500000000004,0.0,864
+427,page_0111,blog,stable,0.4487601865685581,Protect,not updated in 1067d,1.0,28.3275,0.0,1067
+428,page_0389,blog,stable,0.44867233892742653,Protect,not updated in 1046d,10.25,17.9775,0.025,1046
+429,page_0536,guide,stable,0.44639826889227274,Protect,avg position improved 3.2 spots; not updated in 754d,9.0,18.435000000000002,-0.05263157894736842,754
+430,page_0008,product,stable,0.44635009958636285,Protect,not updated in 769d,122.0,31.5225,0.06783369803063458,769
+431,page_0213,blog,stable,0.44605234256346304,Protect,avg position slipped 1.5 spots; not updated in 849d; high week-to-week volatility,2.0,30.985,0.14285714285714285,849
+432,page_0525,blog,stable,0.44603482866948296,Protect,CTR beats position-expected by 0.8pp; not updated in 880d,14.75,10.7975,0.05357142857142857,880
+433,page_0466,landing,stable,0.4459041306661295,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 759d,10.75,22.5325,-0.0851063829787234,759
+434,page_0018,product,stable,0.44564531358891046,Protect,CTR trails position-expected by 0.8pp — metadata review candidate; not updated in 953d,5.0,23.395000000000003,-0.13043478260869565,953
+435,page_0129,guide,stable,0.4451682205338483,Protect,not updated in 652d,8.0,15.935,0.06666666666666667,652
+436,page_0170,blog,stable,0.4447674672891235,Protect,CTR beats position-expected by 0.4pp; not updated in 926d,44.75,21.1825,0.028735632183908046,926
+437,page_0439,blog,stable,0.4445066361484432,Protect,CTR beats position-expected by 0.5pp; not updated in 871d,13.75,9.445,0.0,871
+438,page_0510,guide,stable,0.4444078825096604,Protect,click momentum +41% vs prior 4wk; avg position improved 1.8 spots; CTR trails position-expected by 0.6pp — metadata review candidate,154.25,7.4525,0.4054669703872437,343
+439,page_0387,blog,stable,0.4443149880368419,Protect,within normal range on tracked signals,181.25,5.834999999999999,0.06304985337243402,343
+440,page_0007,guide,stable,0.444019897276642,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 1077d; high week-to-week volatility,2.0,16.4075,0.0,1077
+441,page_0571,blog,stable,0.44334985779321745,Protect,CTR beats position-expected by 0.5pp; not updated in 896d; high week-to-week volatility,36.5,21.0825,-0.12574850299401197,896
+442,page_0218,blog,stable,0.44314682891079776,Protect,avg position slipped 1.5 spots; not updated in 916d,58.75,13.1175,0.03982300884955752,916
+443,page_0485,blog,stable,0.4431200725396701,Protect,not updated in 760d,19.5,23.2225,-0.08235294117647059,760
+444,page_0401,blog,stable,0.4429671985828259,Protect,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 711d; high week-to-week volatility,1.0,17.6925,0.0,711
+445,page_0363,blog,stable,0.4429568094077263,Protect,click momentum +19% vs prior 4wk; CTR beats position-expected by 1.1pp; not updated in 703d,488.25,7.7225,0.18940316686967112,703
+446,page_0477,blog,stable,0.4427439644656864,Protect,CTR beats position-expected by 0.5pp; not updated in 761d,13.75,29.689999999999998,0.0,761
+447,page_0036,blog,stable,0.44230914535965715,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 655d,2.0,20.924999999999997,0.0,655
+448,page_0216,blog,stable,0.4412121156849202,Protect,not updated in 784d,7.5,19.045,-0.0625,784
+449,page_0275,guide,stable,0.4411427743211807,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 613d,14.25,19.252499999999998,0.11764705882352941,613
+450,page_0296,blog,stable,0.4409689544654379,Protect,CTR beats position-expected by 0.5pp; not updated in 636d; high week-to-week volatility,14.25,23.865000000000002,0.0,636
+451,page_0219,landing,stable,0.4407036449796638,Protect,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 842d,11.0,10.3775,-0.06382978723404255,842
+452,page_0437,blog,stable,0.44046995482089174,Protect,not updated in 587d,10.0,17.765,0.02564102564102564,587
+453,page_0034,guide,stable,0.4398938127228437,Protect,within normal range on tracked signals,34.0,11.79,0.022556390977443608,343
+454,page_0251,blog,stable,0.43973090228345424,Protect,click momentum +45% vs prior 4wk; avg position improved 2.4 spots; high week-to-week volatility,124.0,9.842500000000001,0.45454545454545453,343
+455,page_0214,product,stable,0.43947293153243927,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 912d,14.5,22.045,-0.03333333333333333,912
+456,page_0131,guide,stable,0.43939159997181176,Protect,click momentum +17% vs prior 4wk; CTR beats position-expected by 0.4pp; not updated in 1074d,1.75,18.3875,0.16666666666666666,1074
+457,page_0294,landing,stable,0.43904153009602886,Protect,CTR beats position-expected by 0.5pp; not updated in 950d,20.25,14.145000000000001,-0.012195121951219513,950
+458,page_0461,product,stable,0.438743172672165,Protect,click momentum +33% vs prior 4wk; not updated in 791d; high week-to-week volatility,2.0,31.537499999999998,0.3333333333333333,791
+459,page_0454,blog,stable,0.4382887386977554,Protect,not updated in 1041d,7.25,16.4075,0.07407407407407407,1041
+460,page_0287,guide,stable,0.4378695526706449,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 962d,2.0,15.5825,-0.1111111111111111,962
+461,page_0551,landing,stable,0.43782540730005565,Protect,"CTR beats position-expected by 0.6pp; not updated in 622d; was declining, now turning up",89.75,16.5825,0.002793296089385475,622
+462,page_0463,landing,stable,0.43765826591305435,Protect,not updated in 996d,8.75,21.905,-0.05405405405405406,996
+463,page_0217,product,stable,0.43687258672289997,Protect,CTR trails position-expected by 0.3pp — metadata review candidate,64.75,15.552499999999998,-0.13953488372093023,343
+464,page_0066,product,stable,0.4361399316072518,Protect,click momentum +20% vs prior 4wk; CTR beats position-expected by 0.4pp; not updated in 977d,51.0,16.005000000000003,0.2,977
+465,page_0282,guide,stable,0.4360365902423648,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 1004d,10.0,9.0125,0.05263157894736842,1004
+466,page_0147,blog,stable,0.4358632259051316,Protect,click momentum +24% vs prior 4wk; not updated in 835d,28.0,24.450000000000003,0.24444444444444444,835
+467,page_0274,guide,stable,0.4358603941685293,Protect,not updated in 802d; high week-to-week volatility,4.5,18.509999999999998,-0.14285714285714285,802
+468,page_0592,blog,stable,0.4357999614751774,Protect,not updated in 779d,238.25,15.3125,-0.12327506899724011,779
+469,page_0573,blog,stable,0.43561595182347734,Protect,avg position slipped 1.6 spots; CTR beats position-expected by 2.3pp,441.5,4.955,-0.05053763440860215,343
+470,page_0589,blog,stable,0.43558025042219267,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 1074d,20.5,11.965,0.0379746835443038,1074
+471,page_0128,blog,stable,0.43528731945493637,Protect,click momentum +31% vs prior 4wk; CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 923d,4.25,18.8875,0.3076923076923077,923
+472,page_0014,blog,stable,0.4351962746615051,Protect,not updated in 587d,12.75,27.750000000000004,0.02,587
+473,page_0368,blog,stable,0.4326370549763778,Protect,within normal range on tracked signals,54.5,8.069999999999999,0.004608294930875576,343
+474,page_0497,guide,stable,0.4318018913067711,Protect,click momentum +16% vs prior 4wk; CTR beats position-expected by 0.4pp; not updated in 877d,29.0,25.709999999999997,0.16,877
+475,page_0096,landing,stable,0.43174211544366764,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 648d,50.0,10.8425,0.015228426395939087,648
+476,page_0321,guide,stable,0.4315965821835262,Protect,not updated in 694d,29.75,23.7825,0.034782608695652174,694
+477,page_0203,blog,stable,0.4315182860633003,Protect,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 1043d,12.5,23.4575,0.0,1043
+478,page_0307,blog,stable,0.43122515019735114,Protect,avg position improved 1.5 spots; not updated in 979d,8.25,19.182499999999997,0.0,979
+479,page_0385,blog,stable,0.4310628180173637,Protect,CTR beats position-expected by 0.7pp; not updated in 945d,13.75,8.802499999999998,0.057692307692307696,945
+480,page_0283,blog,stable,0.4306384484060112,Protect,not updated in 713d,17.0,17.604999999999997,0.0625,713
+481,page_0332,blog,stable,0.43037881986003235,Protect,avg position improved 1.6 spots; CTR beats position-expected by 0.7pp; not updated in 906d,5.75,12.927500000000002,0.0,906
+482,page_0249,blog,stable,0.43008503361476275,Protect,not updated in 769d,14.5,17.865,0.03571428571428571,769
+483,page_0088,blog,stable,0.4299295131315138,Protect,CTR beats position-expected by 0.4pp; not updated in 732d,18.75,25.3625,0.056338028169014086,732
+484,page_0207,blog,stable,0.42960108816469644,Protect,CTR beats position-expected by 0.4pp; not updated in 1073d,30.0,16.82,-0.13043478260869565,1073
+485,page_0455,guide,stable,0.4290227366831214,Protect,not updated in 908d,17.25,14.935,0.0,908
+486,page_0511,guide,stable,0.4282470514980189,Protect,CTR beats position-expected by 0.4pp; not updated in 947d,21.0,12.8575,-0.13402061855670103,947
+487,page_0243,blog,stable,0.4281552142105587,Protect,not updated in 824d,10.25,24.847499999999997,-0.023809523809523808,824
+488,page_0587,product,stable,0.42778701973111616,Protect,not updated in 748d,7.25,21.8,0.0,748
+489,page_0358,product,stable,0.4274663317591959,Protect,not updated in 784d; high week-to-week volatility,66.75,21.1125,0.026923076923076925,784
+490,page_0247,blog,stable,0.427279085996086,Protect,not updated in 679d,17.25,14.02,0.078125,679
+491,page_0334,landing,stable,0.42708999551945714,Protect,CTR beats position-expected by 0.7pp; not updated in 1075d,22.75,16.1125,-0.14953271028037382,1075
+492,page_0271,blog,stable,0.42681956846994534,Protect,click momentum +15% vs prior 4wk; not updated in 1016d,67.25,18.6075,0.15450643776824036,1016
+493,page_0395,product,stable,0.42681429599094184,Protect,not updated in 1025d,27.5,22.9375,-0.08333333333333333,1025
+494,page_0408,guide,stable,0.4259295532274282,Protect,not updated in 866d,3.75,17.935000000000002,0.0,866
+495,page_0093,product,stable,0.42588682970807845,Protect,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 627d,21.75,16.4025,0.011627906976744186,627
+496,page_0293,product,stable,0.4255469626196362,Protect,CTR beats position-expected by 1.0pp; not updated in 639d,266.75,8.657499999999999,0.11610878661087866,639
+497,page_0016,blog,stable,0.42528177795075944,Protect,CTR beats position-expected by 0.4pp; not updated in 781d; high week-to-week volatility,48.25,15.17,-0.14977973568281938,781
+498,page_0136,blog,stable,0.4249285110283432,Protect,click momentum +27% vs prior 4wk; CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 1064d,399.5,19.830000000000002,0.2662440570522979,1064
+499,page_0579,product,stable,0.42431276392230954,Protect,not updated in 1053d,59.75,12.969999999999999,-0.020491803278688523,1053
+500,page_0496,blog,stable,0.42420751039492277,Protect,CTR beats position-expected by 0.7pp; not updated in 701d,7.25,17.235,0.03571428571428571,701
+501,page_0541,blog,stable,0.4241196665203065,Protect,not updated in 1071d,12.0,26.697499999999998,0.06666666666666667,1071
+502,page_0024,blog,stable,0.42375741735268124,Protect,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 912d,4.75,19.1175,0.0,912
+503,page_0423,blog,stable,0.42369910951272316,Protect,not updated in 706d,27.25,16.8875,-0.0603448275862069,706
+504,page_0367,product,stable,0.4231144114461413,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 962d,20.75,11.567499999999999,-0.14432989690721648,962
+505,page_0299,landing,stable,0.42278312051243366,Protect,click momentum +27% vs prior 4wk; high week-to-week volatility,51.25,11.977500000000001,0.2732919254658385,343
+506,page_0425,blog,stable,0.42259127576195327,Protect,CTR trails position-expected by 1.1pp — metadata review candidate; not updated in 623d,18.0,15.6075,0.043478260869565216,623
+507,page_0137,product,stable,0.42244407630837666,Protect,not updated in 666d,10.5,11.385,-0.023255813953488372,666
+508,page_0549,blog,stable,0.4223427689156076,Protect,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 627d; high week-to-week volatility,1.0,18.59,0.0,627
+509,page_0597,product,stable,0.42231221047760237,Protect,not updated in 913d,3.0,27.279999999999998,-0.07692307692307693,913
+510,page_0538,blog,stable,0.4221841048537807,Protect,not updated in 707d,21.75,17.5775,0.0,707
+511,page_0040,product,stable,0.4221190002606619,Protect,CTR beats position-expected by 0.8pp; not updated in 678d,19.5,10.615000000000002,-0.14285714285714285,678
+512,page_0576,product,stable,0.42076640325024856,Protect,not updated in 1002d,52.75,14.860000000000001,-0.04954954954954955,1002
+513,page_0092,guide,stable,0.4200616645181653,Protect,click momentum +18% vs prior 4wk; avg position improved 2.1 spots; not updated in 654d,43.25,21.102500000000003,0.17687074829931973,654
+514,page_0148,blog,stable,0.41959250607721305,Protect,not updated in 805d,26.0,14.155000000000001,-0.06306306306306306,805
+515,page_0140,product,stable,0.4189404267161034,Protect,CTR trails position-expected by 0.3pp — metadata review candidate; not updated in 591d,6.0,7.67,0.043478260869565216,591
+516,page_0315,blog,stable,0.4187257290731155,Protect,CTR beats position-expected by 0.6pp; not updated in 680d,2.0,21.225,0.14285714285714285,680
+517,page_0429,blog,stable,0.41844357266047544,Protect,not updated in 737d,24.0,21.240000000000002,-0.058823529411764705,737
+518,page_0254,product,stable,0.4180907733547245,Protect,within normal range on tracked signals,82.25,15.43,-0.10109289617486339,343
+519,page_0516,landing,stable,0.418044881630914,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 622d,6.75,12.575,-0.03571428571428571,622
+520,page_0396,blog,stable,0.41784723041968674,Protect,not updated in 763d,22.25,27.64,0.07228915662650602,763
+521,page_0397,blog,stable,0.4177824710559408,Protect,click momentum +18% vs prior 4wk; avg position improved 1.6 spots; CTR trails position-expected by 1.3pp — metadata review candidate,10.0,4.895,0.17647058823529413,950
+522,page_0067,blog,stable,0.4168925200227843,Protect,CTR beats position-expected by 0.7pp,25.5,16.697499999999998,0.07368421052631578,343
+523,page_0057,blog,stable,0.416030085008316,Protect,click momentum +44% vs prior 4wk; CTR beats position-expected by 2.1pp; not updated in 800d,681.5,1.005,0.4446210916799152,800
+524,page_0566,product,stable,0.4152684244782272,Protect,within normal range on tracked signals,7.75,11.955000000000002,-0.08823529411764706,343
+525,page_0542,blog,stable,0.415194986154209,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 633d,22.5,13.610000000000001,-0.14285714285714285,633
+526,page_0553,guide,stable,0.41507632682137263,Protect,not updated in 739d,15.0,22.7925,-0.1044776119402985,739
+527,page_0366,blog,stable,0.414801013015147,Protect,avg position slipped 1.7 spots; CTR beats position-expected by 0.4pp; not updated in 638d,51.75,13.32,0.029850746268656716,638
+528,page_0521,product,stable,0.41477207540706523,Protect,CTR beats position-expected by 1.4pp; not updated in 612d,9.75,13.43,0.0,612
+529,page_0242,blog,stable,0.4141077468129469,Protect,not updated in 982d; high week-to-week volatility,3.75,15.287500000000001,-0.11764705882352941,982
+530,page_0141,guide,stable,0.41334643664446874,Protect,click momentum +18% vs prior 4wk; high week-to-week volatility,51.5,13.3925,0.17714285714285713,343
+531,page_0094,blog,stable,0.4132653085392847,Protect,CTR beats position-expected by 0.4pp,64.5,9.127500000000001,0.027888446215139442,343
+532,page_0225,product,stable,0.41294566070403577,Protect,CTR beats position-expected by 0.8pp,180.0,7.455,0.022727272727272728,343
+533,page_0114,blog,stable,0.4127918383149777,Protect,click momentum +21% vs prior 4wk; CTR trails position-expected by 0.9pp — metadata review candidate; not updated in 585d,33.75,3.925,0.20535714285714285,585
+534,page_0372,blog,stable,0.4125559734515064,Protect,click momentum +17% vs prior 4wk; not updated in 753d,21.0,11.6975,0.16666666666666666,753
+535,page_0167,guide,stable,0.4111356149304529,Protect,click momentum +22% vs prior 4wk; CTR trails position-expected by 0.4pp — metadata review candidate; high week-to-week volatility,303.25,6.6625000000000005,0.21664994984954863,343
+536,page_0557,guide,stable,0.41091236312016743,Protect,not updated in 978d,34.25,22.3425,-0.07432432432432433,978
+537,page_0151,guide,stable,0.4106031858415206,Protect,click momentum +17% vs prior 4wk; CTR beats position-expected by 0.5pp; not updated in 598d,1.75,22.98,0.16666666666666666,598
+538,page_0459,guide,stable,0.4103307004608726,Protect,not updated in 661d,9.0,26.750000000000004,-0.07692307692307693,661
+539,page_0068,product,stable,0.41029088545557824,Protect,CTR trails position-expected by 0.3pp — metadata review candidate; not updated in 821d,9.5,4.8825,-0.02564102564102564,821
+540,page_0507,product,stable,0.40984596910884746,Protect,click momentum +20% vs prior 4wk; avg position slipped 1.7 spots; not updated in 906d,1.5,16.6025,0.2,906
+541,page_0175,blog,stable,0.4095230472084788,Protect,CTR beats position-expected by 1.1pp; not updated in 862d,1.0,17.5475,0.0,862
+542,page_0530,guide,stable,0.40892432801472534,Protect,not updated in 872d,23.0,10.399999999999999,0.022222222222222223,872
+543,page_0285,product,stable,0.40869102170743443,Protect,click momentum +17% vs prior 4wk; CTR beats position-expected by 0.4pp; not updated in 824d,17.5,20.8825,0.16666666666666666,824
+544,page_0177,product,stable,0.4086699783301179,Protect,not updated in 975d,20.0,14.5875,-0.012345679012345678,975
+545,page_0568,blog,stable,0.40855130172908904,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 909d,3.0,16.1925,0.0,909
+546,page_0316,blog,stable,0.4080575226711616,Protect,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 949d,25.75,13.3575,-0.05504587155963303,949
+547,page_0253,blog,stable,0.4073151379862615,Protect,CTR beats position-expected by 0.4pp; not updated in 1080d; high week-to-week volatility,16.0,16.7425,0.0,1080
+548,page_0112,product,stable,0.4068502081219047,Protect,not updated in 658d,6.5,12.4425,-0.037037037037037035,658
+549,page_0410,product,stable,0.4062375820408154,Protect,not updated in 640d,4.0,29.332500000000003,-0.058823529411764705,640
+550,page_0554,guide,stable,0.405571864793046,Protect,CTR beats position-expected by 0.5pp; not updated in 605d,30.5,21.747500000000002,0.0990990990990991,605
+551,page_0097,blog,stable,0.40553011977574377,Protect,within normal range on tracked signals,36.5,7.102499999999999,-0.0457516339869281,343
+552,page_0202,blog,stable,0.4040496956921879,Protect,not updated in 1070d,31.0,15.095,-0.046153846153846156,1070
+553,page_0037,guide,stable,0.4037582299202737,Protect,not updated in 705d,3.25,30.615000000000002,0.0,705
+554,page_0380,guide,stable,0.40329851233994995,Protect,within normal range on tracked signals,56.5,11.385,0.018018018018018018,343
+555,page_0518,blog,stable,0.40324930970512074,Protect,within normal range on tracked signals,36.75,17.2175,0.013793103448275862,343
+556,page_0223,blog,stable,0.40308446661721414,Protect,not updated in 877d,8.75,17.9575,0.0,877
+557,page_0159,blog,stable,0.40263987461736656,Protect,click momentum +31% vs prior 4wk; CTR trails position-expected by 1.7pp — metadata review candidate; not updated in 588d,298.25,2.8925,0.3066812705366922,588
+558,page_0209,blog,stable,0.4025355162731654,Protect,high week-to-week volatility,40.25,9.14,0.0,343
+559,page_0083,product,stable,0.4019729816758044,Protect,CTR beats position-expected by 0.4pp; not updated in 633d,28.75,24.435000000000002,0.07476635514018691,633
+560,page_0152,blog,stable,0.3996651110551116,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 733d,3.5,17.222500000000004,-0.06666666666666667,733
+561,page_0146,product,stable,0.3993087720829763,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 689d; high week-to-week volatility,7.75,17.759999999999998,-0.06060606060606061,689
+562,page_0596,blog,stable,0.39897857733078806,Protect,CTR trails position-expected by 0.4pp — metadata review candidate,19.5,5.73,-0.060240963855421686,343
+563,page_0386,landing,stable,0.39846617499824594,Protect,CTR beats position-expected by 1.6pp; not updated in 1036d; high week-to-week volatility,41.25,2.4000000000000004,0.0,1036
+564,page_0157,guide,stable,0.398156667735396,Protect,not updated in 1013d; high week-to-week volatility,2.25,21.555000000000003,0.0,1013
+565,page_0121,blog,stable,0.39808510224164906,Protect,CTR beats position-expected by 1.1pp; not updated in 824d,3.75,11.445,-0.11764705882352941,824
+566,page_0108,landing,stable,0.3975932396608358,Monitor,click momentum +28% vs prior 4wk; CTR trails position-expected by 3.1pp — metadata review candidate; not updated in 984d,25.5,2.6725,0.275,984
+567,page_0205,blog,stable,0.39750902876761984,Protect,CTR beats position-expected by 0.3pp; not updated in 699d,4.5,19.395,0.058823529411764705,699
+568,page_0547,guide,stable,0.396895723239636,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 933d,32.0,7.6,-0.06569343065693431,933
+569,page_0420,blog,stable,0.39635786992058314,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 737d,17.5,7.39,0.0,737
+570,page_0229,product,stable,0.3962528517633374,Protect,not updated in 732d,10.5,12.54,-0.08695652173913043,732
+571,page_0309,blog,stable,0.39617773334604367,Protect,not updated in 837d,63.0,33.39,0.058823529411764705,837
+572,page_0102,blog,stable,0.3954439243052559,Protect,within normal range on tracked signals,4.5,35.584999999999994,0.058823529411764705,343
+573,page_0026,product,stable,0.39514409087766145,Protect,not updated in 998d,46.0,15.4025,-0.0891089108910891,998
+574,page_0392,blog,stable,0.39460461985692014,Protect,CTR beats position-expected by 0.8pp,82.0,8.895,0.06493506493506493,343
+575,page_0029,blog,stable,0.3926937124486933,Protect,not updated in 1080d,1.0,10.84,0.0,1080
+576,page_0264,blog,stable,0.3914239510328019,Protect,not updated in 682d,54.5,8.3525,0.004608294930875576,682
+577,page_0326,landing,stable,0.39024189333005493,Protect,CTR trails position-expected by 1.5pp — metadata review candidate; not updated in 1021d,0.0,28.035,0.0,1021
+578,page_0550,blog,stable,0.38865408232344084,Protect,CTR beats position-expected by 0.4pp; not updated in 693d,12.75,14.2575,-0.13559322033898305,693
+579,page_0418,landing,stable,0.38862919754941644,Protect,within normal range on tracked signals,20.25,20.97,0.0,343
+580,page_0265,blog,stable,0.3877485370651637,Protect,"not updated in 1037d; high week-to-week volatility; was declining, now turning up",79.5,8.5,0.006329113924050633,1037
+581,page_0546,blog,stable,0.3823069952704119,Protect,click momentum +33% vs prior 4wk; not updated in 879d,4.0,16.6,0.3333333333333333,879
+582,page_0002,blog,stable,0.3807792285248801,Protect,not updated in 865d,3.0,20.012500000000003,-0.07692307692307693,865
+583,page_0492,product,stable,0.38049541902799244,Protect,CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 870d,71.0,11.0075,-0.01730103806228374,870
+584,page_0424,product,stable,0.37958022513519396,Protect,CTR trails position-expected by 1.2pp — metadata review candidate; not updated in 972d,13.75,3.2150000000000003,-0.05172413793103448,972
+585,page_0322,blog,stable,0.377803043928776,Protect,avg position improved 1.7 spots; CTR beats position-expected by 0.4pp; not updated in 601d,3.0,15.275,0.0,601
+586,page_0383,blog,stable,0.375011472906086,Protect,not updated in 935d,10.25,14.8625,-0.08888888888888889,935
+587,page_0191,landing,stable,0.3745842766918998,Protect,click momentum +38% vs prior 4wk; CTR beats position-expected by 3.0pp; high week-to-week volatility,118.75,1.0,0.3848396501457726,343
+588,page_0001,blog,stable,0.3742548810990803,Protect,CTR trails position-expected by 0.6pp — metadata review candidate; not updated in 1074d,210.75,5.3175,-0.0974304068522484,1074
+589,page_0405,blog,stable,0.3741563413787879,Protect,not updated in 901d,8.75,18.585,0.0,901
+590,page_0569,guide,stable,0.3731313605743854,Protect,not updated in 820d; high week-to-week volatility,16.75,20.735,-0.12987012987012986,820
+591,page_0486,guide,stable,0.37282684634913416,Protect,click momentum +25% vs prior 4wk; CTR beats position-expected by 0.6pp; not updated in 907d,3.75,18.924999999999997,0.25,907
+592,page_0581,product,stable,0.3724485164573375,Protect,within normal range on tracked signals,129.75,12.9175,-0.11282051282051282,343
+593,page_0280,landing,stable,0.37213794126051797,Protect,CTR trails position-expected by 0.5pp — metadata review candidate; not updated in 1013d,3.0,13.267499999999998,0.0,1013
+594,page_0544,guide,stable,0.37136745203318744,Protect,click momentum +25% vs prior 4wk; CTR beats position-expected by 0.5pp; not updated in 620d,3.75,19.9225,0.25,620
+595,page_0279,product,stable,0.3692927637124863,Protect,click momentum +17% vs prior 4wk; CTR beats position-expected by 1.1pp,263.25,5.1875,0.16611295681063123,343
+596,page_0355,landing,stable,0.3645086145811955,Protect,high week-to-week volatility,53.75,1.1425,-0.0611353711790393,343
+597,page_0548,blog,stable,0.34970198740230457,Protect,high week-to-week volatility,316.0,5.2575,-0.07804522246535375,343
+598,page_0453,blog,stable,0.34540978870165934,Protect,not updated in 1014d; high week-to-week volatility,3.25,19.1375,-0.07142857142857142,1014
+599,page_0427,blog,stable,0.3445670832377977,Protect,not updated in 791d,4.0,18.705,0.06666666666666667,791
+600,page_0099,guide,stable,0.32290227849703895,Protect,CTR trails position-expected by 0.7pp — metadata review candidate; not updated in 825d,15.0,4.5875,0.1111111111111111,825

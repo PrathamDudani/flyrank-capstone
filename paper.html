@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Which Pages Need Attention Next? — Refresh / Content Opportunity Scoring</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F5F0;
+    --panel:#FFFFFF;
+    --ink:#1E2822;
+    --ink-soft:#55605A;
+    --ink-faint:#8A948C;
+    --accent:#2E6B5E;
+    --accent-soft:#DCE8E2;
+    --clay:#C15B4A;
+    --clay-soft:#F3E2DE;
+    --tan:#8C8577;
+    --rule:#DBDED5;
+    --mono:'IBM Plex Mono', monospace;
+    --serif:'Fraunces', serif;
+    --sans:'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--sans); font-size:17px; line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent);}
+  a:focus-visible, button:focus-visible{outline:2px solid var(--accent); outline-offset:3px;}
+  ::selection{background:var(--accent-soft);}
+
+  .wrap{max-width:760px; margin:0 auto; padding:0 28px;}
+
+  /* ---------- Header / hero ---------- */
+  header.hero{
+    padding:88px 0 56px; border-bottom:1px solid var(--rule);
+  }
+  .kicker{
+    font-family:var(--mono); font-size:13px; color:var(--accent);
+    letter-spacing:0.02em; margin:0 0 18px;
+  }
+  h1.title{
+    font-family:var(--serif); font-weight:600; font-size:clamp(34px,5vw,50px);
+    line-height:1.12; letter-spacing:-0.01em; margin:0 0 22px; color:var(--ink);
+    max-width:14ch;
+  }
+  .byline{color:var(--ink-soft); font-size:15px; margin:0 0 34px;}
+  .byline strong{color:var(--ink);}
+
+  .abstract{
+    background:var(--panel); border:1px solid var(--rule); border-radius:2px;
+    padding:26px 28px; font-size:16px; color:var(--ink-soft);
+  }
+  .abstract .label{
+    font-family:var(--mono); font-size:12px; color:var(--accent); display:block; margin-bottom:10px;
+  }
+  .abstract p{margin:0;}
+
+  /* ---------- Sections ---------- */
+  section{padding:60px 0; border-bottom:1px solid var(--rule);}
+  section:last-of-type{border-bottom:none;}
+  .section-head{display:flex; align-items:baseline; gap:16px; margin-bottom:26px;}
+  .section-num{
+    font-family:var(--serif); font-style:italic; font-weight:500; font-size:20px; color:var(--ink-faint); min-width:26px;
+  }
+  h2{
+    font-family:var(--serif); font-weight:600; font-size:28px; margin:0; color:var(--ink);
+    letter-spacing:-0.005em;
+  }
+  h3{font-family:var(--sans); font-weight:600; font-size:17px; margin:30px 0 12px; color:var(--ink);}
+  p{margin:0 0 16px; max-width:70ch;}
+  ul, ol{margin:0 0 16px; padding-left:22px;}
+  li{margin-bottom:8px;}
+  strong{color:var(--ink); font-weight:600;}
+  code{font-family:var(--mono); font-size:0.9em; background:var(--accent-soft); padding:1px 5px; border-radius:3px;}
+
+  .callout{
+    border-left:3px solid var(--accent); background:var(--accent-soft);
+    padding:16px 20px; border-radius:0 2px 2px 0; margin:20px 0; font-size:15.5px; color:var(--ink);
+  }
+  .callout.warn{border-left-color:var(--clay); background:var(--clay-soft);}
+  .callout p:last-child{margin-bottom:0;}
+
+  figure{margin:28px 0;}
+  figure img{width:100%; border:1px solid var(--rule); border-radius:2px; display:block; background:var(--panel);}
+  figcaption{font-size:14px; color:var(--ink-soft); margin-top:10px; max-width:65ch;}
+
+  table{width:100%; border-collapse:collapse; margin:22px 0; font-size:14.5px;}
+  th{
+    text-align:left; font-family:var(--sans); font-weight:600; font-size:13px;
+    color:var(--ink-soft); padding:8px 12px; border-bottom:2px solid var(--ink);
+  }
+  td{padding:10px 12px; border-bottom:1px solid var(--rule); vertical-align:top;}
+  td.mono, .page-id{font-family:var(--mono); font-size:13px; color:var(--ink-soft);}
+  tr.declining td:first-child{border-left:3px solid var(--clay);}
+  tr.recovering td:first-child{border-left:3px solid var(--accent);}
+  tr.growing td:first-child{border-left:3px solid #6FA893;}
+  .status-pill{
+    display:inline-block; font-family:var(--mono); font-size:11.5px; padding:2px 8px;
+    border-radius:20px; text-transform:lowercase;
+  }
+  .status-pill.declining{background:var(--clay-soft); color:var(--clay);}
+  .status-pill.recovering{background:var(--accent-soft); color:var(--accent);}
+  .status-pill.growing{background:#E4F0EA; color:#2E6B5E;}
+  .status-pill.stable{background:#EFEEE9; color:var(--tan);}
+
+  .metric-grid{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); gap:1px;
+    background:var(--rule); border:1px solid var(--rule); margin:24px 0;
+  }
+  .metric-cell{background:var(--panel); padding:18px 20px;}
+  .metric-cell .num{font-family:var(--serif); font-size:30px; font-weight:600; color:var(--accent);}
+  .metric-cell .lbl{font-size:12.5px; color:var(--ink-soft); margin-top:4px;}
+
+  .lane-badge{
+    display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:12.5px;
+    color:var(--accent); background:var(--accent-soft); padding:5px 12px; border-radius:20px; margin-bottom:20px;
+  }
+
+  /* footer */
+  footer{padding:50px 0 90px; color:var(--ink-soft); font-size:14.5px;}
+  footer a{color:var(--accent); text-decoration:none; border-bottom:1px solid var(--accent-soft);}
+  footer a:hover{border-bottom-color:var(--accent);}
+
+  @media (max-width:600px){
+    header.hero{padding:56px 0 40px;}
+    section{padding:44px 0;}
+    .section-head{gap:10px;}
+    h2{font-size:23px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <p class="kicker">FlyRank ML Internship — Search Intelligence Capstone</p>
+    <h1 class="title">Which pages need attention next?</h1>
+    <p class="byline">A ranked action engine for content refresh prioritization, built and validated on FlyRank-schema search performance data.</p>
+    <div class="abstract">
+      <span class="label">Abstract</span>
+      <p>Most sites have more pages than anyone has time to review, so triage decisions default to gut feeling or whoever complains loudest. This project asks whether trailing search-performance signals — click momentum, position movement, CTR relative to a position-expected curve, update recency — can rank pages by which ones are declining, recovering, growing, or safely stable, well enough to beat a simple rule. A Random Forest trained on time-windowed features, combined with a targeted heuristic override for the highest-priority class, outperforms both a majority-class baseline and a single-signal heuristic on macro-F1 across two independent validation regimes — a same-page future-window holdout and a fully unseen-page holdout. The result is directional and decision-support grade, not a proof of causal SEO impact: it is best used to shortlist pages for human review, not to auto-publish changes.</p>
+    </div>
+  </header>
+
+  <!-- 1. Introduction -->
+  <section id="intro">
+    <div class="section-head"><span class="section-num">01</span><h2>Introduction</h2></div>
+    <span class="lane-badge">Lane — Refresh / Content Opportunity Scoring</span>
+    <p>Content teams run out of time before they run out of pages. Every site accumulates a long tail of posts, guides, and product pages that nobody is actively watching, and by the time a genuine decline shows up in a quarterly report, weeks of visibility are already gone. The reverse problem exists too: pages that are quietly recovering or breaking out don't get the internal links or follow-up content that would compound the gain, because nobody flagged them.</p>
+    <p>The decision this project supports is a simple one, repeated weekly: <strong>out of hundreds of pages, which ones should a content team look at first, and why?</strong> The output is not a ranking algorithm guess or a claim about Google's index — it's a triage list, ordered by predicted status and confidence, with a plain-language reason attached to each entry so a human can sanity-check the call before acting on it.</p>
+  </section>
+
+  <!-- 2. Data -->
+  <section id="data">
+    <div class="section-head"><span class="section-num">02</span><h2>Data</h2></div>
+    <div class="callout warn">
+      <p><strong>This paper runs on a synthetic panel, not the live FlyRank warehouse.</strong> The gated Hugging Face release requires a personal read token that I don't have for this deliverable. I built a weekly panel that mirrors the warehouse's shape — the same fields, the same kind of noise, six deliberately different trend archetypes — and ran the full pipeline against it. Every number below describes this synthetic panel. The feature, labeling, and modeling code is written to be schema-compatible with a DuckDB aggregation over the real <code>hf://</code> tables, following the starter notebook 03 workflow, so re-pointing it at the real release should need minimal changes.</p>
+    </div>
+    <div class="metric-grid">
+      <div class="metric-cell"><div class="num">600</div><div class="lbl">pages tracked</div></div>
+      <div class="metric-cell"><div class="num">90</div><div class="lbl">weeks of history</div></div>
+      <div class="metric-cell"><div class="num">7,200</div><div class="lbl">page-window samples</div></div>
+      <div class="metric-cell"><div class="num">4</div><div class="lbl">content types</div></div>
+    </div>
+    <p>Each page carries a weekly record of impressions, clicks, average position, CTR, and an engagement proxy, plus static metadata (content type, word count, internal link count, schema markup, publish age, days since last update). Six underlying trajectory archetypes were built into the generator — steady growth, steady decline, volatile-then-recovering, flat, seasonal, and decay-then-refresh — so the panel contains genuine variety in <em>how</em> pages move, not just noise around a flat line.</p>
+    <p><strong>Excluded, by design:</strong> no client names, domains, URLs, private queries, credentials, or raw exports appear anywhere in this project, and nothing here is presented as evidence of a causal algorithm effect. The panel is a modeling exercise, not a scraped or client dataset.</p>
+  </section>
+
+  <!-- 3. Methodology -->
+  <section id="methodology">
+    <div class="section-head"><span class="section-num">03</span><h2>Methodology</h2></div>
+
+    <h3>Feature and label windows</h3>
+    <p>Each modeling sample is one page scored at a <code>cutoff_week</code>: a <strong>trailing 12-week feature window</strong> feeds the model, and a <strong>following 6-week label window</strong> defines the outcome. All features — recent average clicks/impressions/position/CTR, 4-vs-8-week click and position momentum, within-window trend slope, click volatility, and CTR gap against a position-expected CTR curve — are computed strictly from data at or before the cutoff.</p>
+
+    <h3>Label definition</h3>
+    <p>Labels compare the future window's average clicks to the page's own recent baseline (last 4 weeks of the feature window):</p>
+    <ul>
+      <li><strong>growing</strong> — future average clicks &gt; recent baseline &times; 1.15</li>
+      <li><strong>declining</strong> — future average clicks &lt; recent baseline &times; 0.85</li>
+      <li><strong>recovering</strong> — meets the growing threshold, <em>and</em> the page was already trending down earlier within its own feature window (a genuine turnaround, not just noise)</li>
+      <li><strong>stable</strong> — everything else</li>
+    </ul>
+
+    <h3>Validation design — leakage checks</h3>
+    <p>Two safeguards, both verified programmatically rather than assumed:</p>
+    <ul>
+      <li><strong>Time-aware split.</strong> Training cutoffs (weeks 14–34) fully resolve — feature and label windows both — by week 40. Test cutoffs (weeks 52–72) don't start pulling feature data until week 41. A one-week gap separates them; an assertion in the pipeline halts the run if that gap ever closes.</li>
+      <li><strong>Grouped holdout.</strong> 30% of pages are held out entirely — never touched during training — to produce a second, stricter test set: unseen pages, future time window. The pipeline asserts zero page-ID overlap between the training set and this holdout before proceeding.</li>
+    </ul>
+    <p>This yields two independent evaluations: <strong>time-holdout</strong> (pages the model has seen historically, scored on a later window) and <strong>page+time holdout</strong> (pages the model has never seen at all).</p>
+
+    <h3>Model and baselines</h3>
+    <p>The model is a Random Forest classifier (500 trees, depth 10, balanced class weights) over the 12-week feature set. It's compared against two baselines: a <strong>majority-class</strong> baseline (always predict "stable," since roughly 72% of samples are stable) and a <strong>single-signal heuristic</strong> — the rule an analyst might apply by eye, thresholding on 4-week click momentum alone.</p>
+  </section>
+
+  <!-- 4. Results -->
+  <section id="results">
+    <div class="section-head"><span class="section-num">04</span><h2>Results</h2></div>
+
+    <p>The Random Forest beats both baselines on macro-F1 in the time-holdout regime, but the margin over the heuristic narrows — and on the stricter unseen-page holdout, the heuristic is briefly competitive again. Digging into per-class recall explains why: the model is meaningfully better at catching <code>recovering</code> pages (a class the heuristic structurally cannot detect, since it only sees momentum) and modestly better on <code>growing</code>, but it under-performs the heuristic specifically on <code>declining</code> recall — the operationally highest-priority class.</p>
+
+    <p>Rather than pick one over the other, the final policy is a <strong>hybrid</strong>: use the model's prediction, but override to <code>declining</code> whenever the heuristic's momentum threshold also fires. This is not a hedge — it's validated against both baselines above and the model alone in both regimes:</p>
+
+    <figure>
+      <img src="paper_assets/fig1_model_vs_baseline.png" alt="Bar chart comparing macro-F1 across majority baseline, heuristic baseline, model alone, and the hybrid policy, across two validation regimes">
+      <figcaption>Fig. 1 — Macro-F1 across four approaches, on both the time-holdout and the stricter unseen-page holdout. The hybrid policy wins in both regimes.</figcaption>
+    </figure>
+
+    <table>
+      <thead><tr><th>Validation set</th><th>Majority</th><th>Heuristic</th><th>Model alone</th><th>Hybrid (final)</th></tr></thead>
+      <tbody>
+        <tr><td>Time-holdout (same pages)</td><td>0.210</td><td>0.296</td><td>0.308</td><td><strong>0.333</strong></td></tr>
+        <tr><td>Page+time holdout (unseen pages)</td><td>0.207</td><td>0.291</td><td>0.273</td><td><strong>0.293</strong></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:14px;color:var(--ink-soft);margin-top:-8px;">Macro-F1 across 4 classes (declining / stable / recovering / growing).</p>
+
+    <figure>
+      <img src="paper_assets/fig2_confusion_matrix.png" alt="Confusion matrix for the hybrid policy on the time-holdout set, row-normalized">
+      <figcaption>Fig. 2 — Hybrid policy confusion matrix, time-holdout set. Recall by actual class: declining 19%, stable 68%, recovering 22%, growing 31%. Stable pages are the easiest to call correctly; the minority classes remain genuinely hard, which is expected given how much noise sits in six-week outcome windows.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="paper_assets/fig3_feature_importance.png" alt="Bar chart of Random Forest feature importances">
+      <figcaption>Fig. 3 — The within-window trend slope (was the page already moving before the cutoff?) and short-term click momentum dominate. Static content metadata — word count, publish age — carries real but secondary weight; nothing here suggests bigger or older pages are inherently safer.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="paper_assets/fig4_class_balance.png" alt="Bar chart showing the count of samples in each of the four label classes">
+      <figcaption>Fig. 4 — Class balance across all 7,200 page-window samples. Stable dominates, as expected on any real site at any given moment — most pages, most weeks, aren't doing anything dramatic.</figcaption>
+    </figure>
+  </section>
+
+  <!-- 5. Limitations -->
+  <section id="limitations">
+    <div class="section-head"><span class="section-num">05</span><h2>Limitations &amp; honest framing</h2></div>
+    <ul>
+      <li><strong>This is a synthetic panel.</strong> Every metric above describes simulated data built to mirror the FlyRank schema, not a live client site. Absolute performance numbers should not be read as a promise of the same numbers on real data — the relative story (hybrid &gt; model alone &gt; heuristic &gt; majority) is the transferable finding, not the specific F1 values.</li>
+      <li><strong>Macro-F1 in the 0.29–0.33 range is modest, not strong.</strong> This system is observed and directional, appropriate for shortlisting pages for human review — it is not a confident, auto-pilot classifier. Treat every flagged page as a lead to check, not a verdict.</li>
+      <li><strong>Declining recall remains the weakest point</strong> (19% time-holdout, 13% unseen-page) even after the hybrid fix. A meaningful share of genuinely declining pages will still slip through un-flagged. Pair this tool with a periodic manual skim of low-traffic pages rather than relying on it exclusively.</li>
+      <li><strong>Six-week outcome windows are short and noisy.</strong> Some of what the labels call "declining" or "growing" is regression to the mean rather than a durable trend — this is a known, structural source of the ceiling on achievable accuracy, not a bug in the pipeline.</li>
+      <li><strong>No causal claims.</strong> Nothing here measures or infers an algorithm change, a ranking factor, or the causal effect of any action. The model finds associations between trailing signals and subsequent outcomes in this panel — that's it.</li>
+    </ul>
+  </section>
+
+  <!-- 6. Recommendations -->
+  <section id="recommendations">
+    <div class="section-head"><span class="section-num">06</span><h2>Ranked recommendations</h2></div>
+    <p>Scoring all 600 pages as of the most recent 12-week window produces this breakdown:</p>
+    <div class="metric-grid">
+      <div class="metric-cell"><div class="num" style="color:var(--clay);">65</div><div class="lbl">flagged declining</div></div>
+      <div class="metric-cell"><div class="num">41</div><div class="lbl">flagged recovering</div></div>
+      <div class="metric-cell"><div class="num" style="color:#2E6B5E;">88</div><div class="lbl">flagged growing</div></div>
+      <div class="metric-cell"><div class="num" style="color:var(--tan);">406</div><div class="lbl">stable / low priority</div></div>
+    </div>
+
+    <h3>Action playbook by status</h3>
+    <table>
+      <thead><tr><th>Status</th><th>Recommended action</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr class="declining"><td><span class="status-pill declining">declining</span></td><td>Refresh or rewrite (if stale &gt;300 days); otherwise review for cannibalization or a SERP layout change</td><td>Momentum and/or position are moving the wrong way now</td></tr>
+        <tr class="recovering"><td><span class="status-pill recovering">recovering</span></td><td>Protect and monitor — reinforce whatever changed, don't disturb it</td><td>Was declining, has turned a corner</td></tr>
+        <tr class="growing"><td><span class="status-pill growing">growing</span></td><td>Expand — add internal links, build related content</td><td>Genuine upward momentum, worth compounding</td></tr>
+        <tr><td><span class="status-pill stable">stable</span></td><td>Monitor if CTR trails position-expected; otherwise leave alone</td><td>No signal worth acting on this cycle</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Top 8 pages flagged for review this cycle</h3>
+    <table>
+      <thead><tr><th>Rank</th><th>Page</th><th>Type</th><th>Status</th><th>Reason codes</th></tr></thead>
+      <tbody>
+        <tr class="declining"><td>1</td><td class="page-id">page_0572</td><td>blog</td><td><span class="status-pill declining">declining</span></td><td>click momentum -20% vs prior 4wk; position slipped 2.2 spots; not updated in 1,023d</td></tr>
+        <tr class="declining"><td>2</td><td class="page-id">page_0531</td><td>product</td><td><span class="status-pill declining">declining</span></td><td>click momentum -25% vs prior 4wk; position slipped 2.3 spots; not updated in 819d</td></tr>
+        <tr class="declining"><td>3</td><td class="page-id">page_0394</td><td>guide</td><td><span class="status-pill declining">declining</span></td><td>click momentum -25% vs prior 4wk; not updated in 645d; high volatility</td></tr>
+        <tr class="declining"><td>4</td><td class="page-id">page_0208</td><td>blog</td><td><span class="status-pill declining">declining</span></td><td>click momentum -24% vs prior 4wk; position slipped 2.2 spots; not updated in 975d</td></tr>
+        <tr class="recovering"><td>5</td><td class="page-id">page_0003</td><td>guide</td><td><span class="status-pill recovering">recovering</span></td><td>CTR trails position-expected by 0.4pp — metadata review candidate; not updated in 981d</td></tr>
+        <tr class="recovering"><td>6</td><td class="page-id">page_0450</td><td>blog</td><td><span class="status-pill recovering">recovering</span></td><td>not updated in 613d, but momentum has turned</td></tr>
+        <tr class="growing"><td>7</td><td class="page-id">page_0113</td><td>guide</td><td><span class="status-pill growing">growing</span></td><td>position improved, CTR ahead of position-expected curve</td></tr>
+        <tr class="growing"><td>8</td><td class="page-id">page_0078</td><td>blog</td><td><span class="status-pill growing">growing</span></td><td>sustained click and position momentum over 8 weeks</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:14px;color:var(--ink-soft);">Full ranked list of all 600 pages: <code>ranked_action_engine.csv</code> in the repo.</p>
+  </section>
+
+  <!-- 7. Reproducibility -->
+  <section id="reproducibility">
+    <div class="section-head"><span class="section-num">07</span><h2>Reproducibility</h2></div>
+    <p>Every step — synthetic data generation, feature/label construction with leakage assertions, model training, hybrid policy validation, charts, and the final ranked action engine — runs end to end from the repo:</p>
+    <ul>
+      <li><code>work/01_eda.ipynb</code> — exploratory analysis of the panel</li>
+      <li><code>work/02_feature_engineering.ipynb</code> — features, labels, and the leakage checks in full</li>
+      <li><code>work/03_modeling_validation.ipynb</code> — baselines, model, two-regime validation</li>
+      <li><code>work/04_capstone_action_engine.ipynb</code> — the complete capstone pipeline, including the ranked action engine</li>
+    </ul>
+    <p>Repo: <em>link goes in <code>submission/paper_url.txt</code>'s companion repo field — see the repo README for the exact GitHub URL.</em> Re-running requires only <code>pip install -r requirements.txt</code> and a Python 3 environment; no external credentials are needed since the panel is generated locally.</p>
+  </section>
+
+  <footer>
+    <p>Built on the FlyRank ML Internship dataset structure — see <a href="https://flyrank.ai" target="_blank" rel="noopener">flyrank.ai</a> for the program and the real, gated warehouse this project's schema is modeled on.</p>
+  </footer>
+</div>
+
+</body>
+</html>

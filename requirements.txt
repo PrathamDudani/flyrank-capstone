@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+duckdb
+pyarrow
+joblib
+nbformat
