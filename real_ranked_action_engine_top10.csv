@@ -1,0 +1,11 @@
+rank,page_id,content_type,predicted_status,confidence,recommended_action,reason_codes,recent_avg_clicks,recent_avg_position,momentum_clicks
+1,content_b200bbbe488111a3,keyword article,declining,0.983260,Refresh / rewrite,avg position slipped 15.2 spots; targets a high-search-volume keyword; zero backlinks,0.250000,53.375000,0.0
+2,content_e0722d4d374db9ab,keyword article,declining,0.982224,Refresh / rewrite,avg position slipped 37.6 spots; zero backlinks,0.250000,63.583333,0.0
+3,content_d202d5529efbea0e,keyword article,declining,0.981709,Refresh / rewrite,avg position slipped 16.3 spots; zero backlinks,0.200000,64.420000,0.0
+4,content_83d6886abaccf0e6,keyword article,declining,0.981156,Refresh / rewrite,avg position slipped 6.9 spots; zero backlinks,0.200000,42.552381,0.0
+5,content_69acb5f2c70dda49,keyword article,declining,0.980936,Refresh / rewrite,avg position slipped 13.5 spots; targets a high-search-volume keyword; zero backlinks,0.200000,35.440000,0.0
+6,content_0ee39882dd86544a,keyword article,declining,0.980896,Refresh / rewrite,avg position slipped 10.3 spots; targets a high-search-volume keyword; zero backlinks,0.250000,45.977841,0.0
+7,content_5142fdf75804a7d0,keyword article,declining,0.980588,Refresh / rewrite,avg position slipped 40.8 spots; zero backlinks,0.200000,43.294444,0.0
+8,content_37c7435096879d99,keyword article,declining,0.979965,Refresh / rewrite,avg position slipped 6.0 spots; zero backlinks,0.250000,58.500000,0.0
+9,content_48d84b254905f84c,keyword article,declining,0.979694,Refresh / rewrite,avg position slipped 10.6 spots; zero backlinks,0.200000,40.150000,0.0
+10,content_411db71ade6893c0,keyword article,declining,0.979594,Refresh / rewrite,avg position slipped 14.2 spots; zero backlinks,0.333333,38.194444,0.0
